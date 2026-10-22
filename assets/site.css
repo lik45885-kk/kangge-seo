@@ -199,115 +199,31 @@ html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition
 }
 
 
-/* Monumental editorial hero */
-.hero-cinematic{min-height:760px;background:#071728 url("./hero-architecture.svg") center center/cover no-repeat;color:white;position:relative}
-.hero-cinematic:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#061524dd 0%,#071a2b9e 43%,#081b2540 75%,#081c2b12 100%);z-index:0}
-.hero-cinematic .shell{position:relative;z-index:2}
-.hero-cinematic .hero-grid{grid-template-columns:1fr;padding:151px 0 121px}
-.hero-cinematic .hero-copy{max-width:910px}
-.hero-cinematic .eyebrow{color:#a8d5d8}.hero-cinematic .eyebrow:before{background:#8bd4cb}
-.hero-cinematic .hero-copy h1{font-size:clamp(58px,7.4vw,108px);letter-spacing:-.073em;line-height:1.19;font-weight:760}
-.hero-cinematic .hero-copy h1 .gradient{background:linear-gradient(100deg,#e7fff4,#abede1 50%,#86d8ea);-webkit-background-clip:text;background-clip:text}
-.hero-cinematic .hero-copy p{color:#c0d3db;font-size:17px;max-width:600px}
-.hero-cinematic .hero-micro{color:#abc1ca}
-.hero-cinematic .hero-strip{border-top-color:#d3eced29}.hero-cinematic .hero-strip div+div{border-left-color:#d3eced29}
-.hero-cinematic .hero-strip span{color:#a1b9c3}.hero-cinematic .hero-strip strong{color:#e7f3f5}
-.hero-cinematic .hero-actions .btn.primary{background:#dff4ed;color:#10293b;box-shadow:0 15px 50px #050c133d}
-.hero-cinematic .hero-actions .btn.primary:hover{background:white}
-.hero-cinematic .hero-actions .btn.light{background:#ffffff16;color:white;border-color:#ffffff68}
-.hero-cinematic .hero-actions .btn.light:hover{background:#ffffff2a}
-.hero-cinematic .hero-strip{backdrop-filter:blur(4px)}
-.hero-cinematic .hero-side-note{position:absolute;right:0;top:142px;color:#c4e0e0;font-size:10px;writing-mode:vertical-rl;letter-spacing:.22em;opacity:.75}
-@media(max-width:760px){.hero-cinematic{min-height:auto;background-position:60% center}.hero-cinematic:before{background:linear-gradient(90deg,#061524e8,#061524b8 60%,#06152465)}.hero-cinematic .hero-grid{padding:115px 0 95px}.hero-cinematic .hero-copy h1{font-size:clamp(53px,9vw,75px)}.hero-cinematic .hero-side-note{display:none}}
-@media(max-width:480px){.hero-cinematic .hero-grid{padding:96px 0 82px}.hero-cinematic .hero-copy h1{font-size:clamp(46px,12vw,62px)}.hero-cinematic .hero-copy p{font-size:14px}.hero-cinematic .hero-strip strong{font-size:12px}}
-
-
-/* KK推广｜海岸编辑风首屏 */
-.page-home .site-head{position:absolute;left:0;right:0;top:0;background:transparent;border-color:transparent;box-shadow:none;backdrop-filter:none}
-.page-home .site-head.is-scrolled{background:#ffffffea;backdrop-filter:blur(18px);box-shadow:0 10px 35px #1b35421c}
-.page-home .site-head .brand-icon{display:none}
-.page-home .site-head .brand-name{font-family:"Songti SC","STSong","Noto Serif CJK SC","Source Han Serif SC",serif;font-weight:600;font-size:31px;letter-spacing:-.055em;color:#18334b}
-.page-home .site-head .brand-note{display:none}
-.page-home .site-head .site-nav a{font-family:"Songti SC","STSong","Noto Serif CJK SC",serif;font-weight:500;color:#29475a;font-size:16px;letter-spacing:.08em}
-.page-home .site-head .site-nav .nav-contact{padding:0;border-radius:0;background:none;box-shadow:none;color:#29475a}
-.page-home .site-head .site-nav .nav-contact .nav-arrow{display:none}
-.page-home .site-head.is-scrolled .site-nav a{color:#29475a}
-.page-home .hero-cinematic{color:#152d41;background-color:#b0c8d6;background-image:linear-gradient(90deg,#f4f4f0ac 0%,#d6e2e4a3 33%,#bfd8df20 68%),url("https://images.unsplash.com/photo-1774938101681-543593721cd3?auto=format&fit=crop&w=2200&q=85");background-position:center,center;min-height:min(920px,100svh)}
-.page-home .hero-cinematic:before{background:linear-gradient(0deg,#10293a27,transparent 34%),linear-gradient(90deg,#e9ebe8a8 0%,#dce7e69a 32%,#ffffff00 77%)}
-.page-home .hero-cinematic .hero-grid{min-height:min(870px,100svh);display:flex;align-items:center;padding:130px 0 110px}
-.page-home .hero-cinematic .hero-copy{max-width:770px}
-.page-home .hero-cinematic .hero-copy h1{font-family:"Songti SC","STSong","Noto Serif CJK SC","Source Han Serif SC",serif;font-size:clamp(48px,5.8vw,84px);font-weight:500;line-height:1.45;letter-spacing:-.06em;margin:28px 0 16px;color:#18354a}
-.page-home .hero-cinematic .hero-copy h1 .gradient{background:none;color:#18354a;-webkit-text-fill-color:currentColor}
-.page-home .hero-cinematic .eyebrow{font-family:"Songti SC","STSong",serif;color:#375c72;font-size:12px;font-weight:500;letter-spacing:.12em}
-.page-home .hero-cinematic .eyebrow:before{background:#547489}
-.page-home .hero-cinematic .hero-copy p{font-family:"Songti SC","STSong","Noto Serif CJK SC",serif;color:#264458;font-size:17px;line-height:2.05;max-width:690px}
-.page-home .hero-cinematic .hero-actions{margin-top:33px}
-.page-home .hero-cinematic .hero-actions .btn.primary{color:white;background:#20313e;border:1px solid #20313e;box-shadow:0 10px 25px #0f233028;font-family:"Songti SC","STSong",serif;font-size:16px;letter-spacing:.08em;padding:16px 34px;min-height:55px}
-.page-home .hero-cinematic .hero-actions .btn.primary:hover{background:#394c58}
-@media(max-width:760px){
-.page-home .site-head .brand-name{font-size:22px}.page-home .site-head .site-nav a{font-size:12px;letter-spacing:0}
-.page-home .hero-cinematic{background-position:center,60% center;min-height:760px}
-.page-home .hero-cinematic .hero-grid{min-height:760px;padding:115px 0 70px}
-.page-home .hero-cinematic .hero-copy h1{font-size:clamp(39px,8.1vw,57px);line-height:1.48}
-.page-home .hero-cinematic .hero-copy p{font-size:14px;max-width:500px}
-}
-@media(max-width:480px){
-.page-home .site-head .brand-name{font-size:19px}
-.page-home .hero-cinematic{min-height:680px;background-position:center,64% center}
-.page-home .hero-cinematic .hero-grid{min-height:680px;padding:130px 0 85px}
-.page-home .hero-cinematic .hero-copy h1{font-size:clamp(35px,9vw,47px)}
-.page-home .hero-cinematic .hero-copy p{font-size:13px}
-}
-
-
-/* Seaside photographic hero, October 2026: Cory Bjork / Unsplash */
-.page-home .hero-cinematic{
-  background-color:#b7c9d5;
-  background-image:linear-gradient(90deg,rgba(245,244,239,.78) 0%,rgba(241,242,236,.60) 29%,rgba(238,238,231,.22) 51%,rgba(228,233,232,0) 74%),url("https://images.unsplash.com/photo-1641924671057-1881a0d96f4b?auto=format&fit=crop&w=2400&q=83");
-  background-size:cover;
-  background-position:center center;
-  background-repeat:no-repeat;
-}
-.page-home .hero-cinematic:before{
-  background:linear-gradient(0deg,rgba(10,33,50,.12) 0%,rgba(10,33,50,0) 30%);
-}
-.page-home .hero-cinematic .hero-copy h1{color:#183247;text-shadow:0 2px 23px rgba(245,243,235,.33)}
-.page-home .hero-cinematic .hero-copy p{color:#244257}
-.page-home .hero-cinematic .hero-grid{min-height:790px}
-@media(max-width:760px){
-  .page-home .hero-cinematic{background-position:57% center;background-image:linear-gradient(90deg,rgba(245,244,239,.85),rgba(240,240,234,.53) 69%,rgba(225,231,230,.14)),url("https://images.unsplash.com/photo-1641924671057-1881a0d96f4b?auto=format&fit=crop&w=2400&q=83")}
-  .page-home .hero-cinematic .hero-grid{min-height:760px}
-}
-@media(max-width:480px){
-  .page-home .hero-cinematic{background-position:62% center}
-  .page-home .hero-cinematic .hero-grid{min-height:690px}
-}
-
-
-/* 2026 Oct: editorial seaside redesign · photograph by Burak Berkay on Unsplash */
+/* Original coastal photograph: local asset, unfiltered and without a colour overlay. */
 .site-head .logo-mark-only,.site-footer .logo-mark-only{display:inline-flex;align-items:center;gap:0;padding:0;line-height:1}
-.mascot-k{width:68px;height:68px;display:block;filter:drop-shadow(0 6px 12px rgba(18,40,57,.11));transition:transform .35s cubic-bezier(.2,.85,.25,1)}
-.logo-mark-only:hover .mascot-k{transform:rotate(-7deg) scale(1.06)}
+.mascot-k{width:68px;height:68px;display:block;filter:drop-shadow(0 4px 8px rgba(18,40,57,.09));transition:transform .3s}
+.logo-mark-only:hover .mascot-k{transform:rotate(-7deg) scale(1.04)}
+.page-home .site-head{position:absolute;inset:0 0 auto;background:transparent;border-color:transparent;box-shadow:none;backdrop-filter:none;-webkit-backdrop-filter:none}
 .page-home .site-head .shell{height:94px}
-.page-home .site-head .site-nav a{font-family:"Songti SC","STSong","Noto Serif CJK SC",serif;font-weight:550;font-size:16px;letter-spacing:.07em}
-.page-home .hero-cinematic{
-  min-height:850px;
-  background-color:#cad5df;
-  background-image:linear-gradient(90deg,rgba(245,244,239,.72) 0%,rgba(242,245,244,.56) 33%,rgba(234,243,241,.12) 67%,rgba(231,240,242,.01) 100%),url("https://images.unsplash.com/photo-1696792681015-e058f48ac521?auto=format&fit=crop&w=2500&q=85");
-  background-position:center center,center 46%;
-  background-size:cover;
-  background-repeat:no-repeat;
-}
-.page-home .hero-cinematic:before{background:linear-gradient(to top,rgba(16,31,44,.14),transparent 30%)}
-.page-home .hero-cinematic .hero-grid{min-height:850px;display:flex;align-items:center;padding:145px 0 112px}
+.page-home .site-head .site-nav a{font-family:"Songti SC","STSong","Noto Serif CJK SC",serif;font-weight:550;font-size:16px;letter-spacing:.07em;color:#173247}
+.page-home .site-head .site-nav .nav-contact{padding:0;border-radius:0;background:none;box-shadow:none}
+.page-home .site-head .site-nav a:after{background:#173247}
+.page-home .hero-cinematic{min-height:clamp(780px,94svh,920px);background:#567789;color:#fffaf2}
+.page-home .hero-cinematic:before,.page-home .hero-cinematic:after{content:none}
+.hero-photo{position:absolute;inset:0 0 -10%;display:block;pointer-events:none;z-index:0}
+.hero-photo img{display:block;width:100%;height:100%;max-width:none;object-fit:cover;object-position:50% 35%}
+.page-home .hero-cinematic .shell{position:relative;z-index:1}
+.page-home .hero-cinematic .hero-grid{min-height:inherit;display:flex;align-items:center;padding:178px 0 112px}
 .page-home .hero-cinematic .hero-copy{width:100%;max-width:1030px}
-.page-home .hero-cinematic .hero-copy h1{font-family:"Songti SC","STSong","Noto Serif CJK SC","Source Han Serif SC",serif;font-size:clamp(68px,7vw,102px);letter-spacing:-.068em;font-weight:570;line-height:1.22;color:#122d40;margin:28px 0 28px;max-width:1050px;text-wrap:balance;text-shadow:0 1px 20px rgba(245,243,238,.28)}
-.page-home .hero-cinematic .hero-copy h1 .gradient{color:#122d40;-webkit-text-fill-color:currentColor;background:none}
-.page-home .hero-cinematic .hero-copy p{font-family:"Songti SC","STSong","Noto Serif CJK SC",serif;color:#29465a;font-size:19px;max-width:660px;line-height:2.05;text-shadow:0 1px 9px rgba(248,248,244,.34)}
-.page-home .hero-cinematic .eyebrow{font-family:"Songti SC","STSong",serif;font-size:12px;color:#49687c;letter-spacing:.1em}
-.page-home .hero-cinematic .hero-actions{margin-top:38px}
-.page-home .hero-cinematic .hero-actions .btn.primary{padding:17px 39px;min-height:58px;font-family:"Songti SC","STSong",serif;font-size:17px;letter-spacing:.1em;background:#1e3443;color:#fff}
-.page-home .hero-cinematic .hero-actions .btn.primary:hover{background:#2d4d60}
+.page-home .hero-cinematic .eyebrow{font-family:"Songti SC","STSong",serif;font-size:12px;font-weight:500;letter-spacing:.11em;color:#fffaf2;text-shadow:0 1px 3px rgba(10,26,39,.28)}
+.page-home .hero-cinematic .eyebrow:before{background:currentColor}
+.page-home .hero-cinematic .hero-copy h1{font-family:"Songti SC","STSong","Noto Serif CJK SC","Source Han Serif SC",serif;font-size:clamp(68px,7vw,102px);letter-spacing:-.065em;font-weight:570;line-height:1.24;color:#fffaf2;margin:27px 0 25px;max-width:1050px;text-shadow:0 1px 3px rgba(10,26,39,.18)}
+.page-home .hero-cinematic .hero-copy h1 .gradient{color:inherit;-webkit-text-fill-color:currentColor;background:none}
+.page-home .hero-cinematic .hero-copy p{font-family:"Songti SC","STSong","Noto Serif CJK SC",serif;color:#fffaf2;font-size:18px;max-width:640px;line-height:2;text-shadow:0 1px 3px rgba(10,26,39,.35)}
+.page-home .hero-cinematic .hero-actions{margin-top:34px}
+.page-home .hero-cinematic .hero-actions .btn.primary{padding:16px 37px;min-height:57px;font-family:"Songti SC","STSong",serif;font-size:17px;letter-spacing:.08em;background:#fffaf2;color:#1e3443;border:1px solid #fffaf2;box-shadow:none}
+.page-home .hero-cinematic .hero-actions .btn.primary:hover{background:#fff;transform:translateY(-2px)}
+.page-home .hero-cinematic a:focus-visible{outline-color:#fffaf2}
 .page-home .service-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
 .page-home .service-item{min-height:225px}
 .page-home .service-item h3{margin-top:45px}
@@ -318,25 +234,31 @@ html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition
 .page-home .feature{min-height:246px}
 @media(max-width:960px){
   .page-home .hero-cinematic .hero-copy h1{font-size:clamp(54px,7.6vw,74px)}
-  .page-home .service-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
 @media(max-width:760px){
   .site-head .mascot-k{width:59px;height:59px}
   .page-home .site-head .shell{height:81px}
-  .page-home .hero-cinematic{min-height:740px;background-position:center,53% center;background-image:linear-gradient(90deg,rgba(247,247,242,.84),rgba(248,247,244,.63) 60%,rgba(248,247,244,.2)),url("https://images.unsplash.com/photo-1696792681015-e058f48ac521?auto=format&fit=crop&w=2500&q=85")}
-  .page-home .hero-cinematic .hero-grid{min-height:740px;padding:135px 0 90px}
-  .page-home .hero-cinematic .hero-copy h1{font-size:clamp(42px,8.2vw,65px);line-height:1.30;max-width:690px}
-  .page-home .hero-cinematic .hero-copy p{font-size:16px;max-width:600px}
-  .page-home .service-grid{grid-template-columns:repeat(1,minmax(0,1fr))}
+  .page-home .site-head .site-nav{gap:24px}
+  .page-home .site-head .site-nav a{font-size:13px;letter-spacing:0}
+  .page-home .hero-cinematic{min-height:760px}
+  .page-home .hero-cinematic .hero-grid{padding:164px 0 108px}
+  .page-home .hero-cinematic .hero-copy h1{font-size:clamp(42px,8.2vw,65px);line-height:1.3}
+  .page-home .hero-cinematic .hero-copy p{font-size:16px;max-width:520px}
+  .hero-photo img{object-position:44% 0}
+  .page-home .service-grid{grid-template-columns:1fr}
   .page-home .section{padding-top:74px;padding-bottom:74px}
 }
 @media(max-width:480px){
   .site-head .mascot-k{width:54px;height:54px}
-  .page-home .site-head .site-nav{gap:13px}
-  .page-home .site-head .site-nav a{font-size:12px;letter-spacing:0}
-  .page-home .hero-cinematic{min-height:685px;background-position:center,60% center}
-  .page-home .hero-cinematic .hero-grid{min-height:685px;padding:135px 0 90px}
-  .page-home .hero-cinematic .hero-copy h1{font-size:clamp(39px,10vw,52px);line-height:1.26;letter-spacing:-.07em}
-  .page-home .hero-cinematic .hero-copy p{font-size:14px;line-height:1.92}
-  .page-home .hero-cinematic .hero-actions .btn.primary{font-size:14px;padding:13px 25px;min-height:49px}
+  .page-home .site-head .site-nav{gap:17px}
+  .page-home .site-head .site-nav a{font-size:12px}
+  .page-home .hero-cinematic{min-height:720px}
+  .page-home .hero-cinematic .hero-grid{padding:174px 0 110px}
+  .page-home .hero-cinematic .hero-copy h1{font-size:clamp(33px,10.3vw,49px);line-height:1.35;letter-spacing:-.055em;margin:24px 0}
+  .page-home .hero-cinematic .hero-copy p{font-size:14px;line-height:1.95;max-width:370px}
+  .page-home .hero-cinematic .eyebrow{font-size:9px;letter-spacing:.08em;gap:9px}
+  .page-home .hero-cinematic .hero-actions{margin-top:28px}
+  .page-home .hero-cinematic .hero-actions .btn.primary{font-size:14px;padding:13px 27px;min-height:49px}
+  .hero-photo img{object-position:42% 0}
 }
+
