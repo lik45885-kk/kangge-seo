@@ -33,6 +33,19 @@
     .contact-strip{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}.contact-item{display:inline-flex;align-items:center;gap:9px;min-height:44px;padding:9px 16px;border-radius:12px;border:1px solid #e6ddf0;background:#fdfbff;color:var(--deep);font-size:13px;font-weight:600;transition:border-color .2s,transform .2s}.contact-item:hover{border-color:#d3c2ea;transform:translateY(-1px)}.contact-item .icon{width:17px;height:17px;color:var(--purple)}.contact-item .contact-label{color:#9c8caa;font-weight:500;font-size:11px}.contact-item .contact-value{letter-spacing:-.01em}
     @media(max-width:480px){.contact-strip{gap:8px}.contact-item{width:100%;justify-content:center}}
     .form-success{display:grid;justify-items:center;gap:12px;padding:30px 8px 6px;text-align:center}.form-success .success-mark{width:56px;height:56px;border-radius:50%;background:#EAF3DE;display:grid;place-items:center;color:#3B6D11}.form-success .success-mark .icon{width:28px;height:28px}.form-success h3{font-size:20px}.form-success p{font-size:13px;line-height:1.85;max-width:400px}.field .optional{color:#a492b2;font-weight:500;margin-left:2px}.form-submit.loading{opacity:.6;pointer-events:none}.form-success .brief-box{width:100%;margin-top:6px;text-align:left;border:1px solid var(--line);border-radius:12px;background:#FCFAFE;overflow:hidden}.form-success .brief-box summary{cursor:pointer;padding:12px 16px;font-size:13px;font-weight:600;color:var(--ink-2);list-style:none}.form-success .brief-box summary::-webkit-details-marker{display:none}.form-success .brief-box summary::after{content:"＋";float:right;color:#a492b2}.form-success .brief-box[open] summary::after{content:"－"}.form-success .brief-box pre{margin:0;padding:0 16px 12px;font-size:12px;line-height:1.9;color:var(--ink-2);white-space:pre-wrap;word-break:break-word;font-family:ui-monospace,SFMono-Regular,Menlo,monospace}.brief-actions{display:flex;gap:10px;padding:0 16px 14px;flex-wrap:wrap}.brief-actions .btn{font-size:12px;padding:8px 14px}
+  
+    /* Primary navigation, matched with the Resources page */
+    .site-nav{display:flex;align-items:center;gap:32px;white-space:nowrap}
+    .site-nav a{font-size:14px;color:#796b88;transition:color .2s}
+    .site-nav a:hover,.site-nav a[aria-current="page"]{color:#7851ba}
+    .site-nav a[aria-current="page"]{font-weight:600}
+    @media(max-width:560px){
+      .topbar .wrap{gap:8px}
+      .site-nav{gap:13px}
+      .site-nav a{font-size:12px}
+      .topbar .brand{gap:8px}
+      .topbar .brand small{display:none}
+    }
   </style>
     <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Person","@id":"https://lik45885-kk.github.io/kangge-seo//#person","name":"李康","alternateName":"康哥亲投","url":"https://lik45885-kk.github.io/kangge-seo/","email":"mailto:775381540@qq.com","telephone":"+86-15168254598","jobTitle":"搜索广告代运营顾问","description":"百度 / Bing 搜索广告代运营，账户由李康亲自操盘、不转手。","knowsAbout":["百度推广","Bing Ads","Microsoft Ads","搜索词分析","落地页优化","手动 CPC 出价"]},{"@type":"ProfessionalService","@id":"https://lik45885-kk.github.io/kangge-seo//#service","name":"康哥亲投","alternateName":"康哥亲投 · 百度 / Bing SEM 代运营","url":"https://lik45885-kk.github.io/kangge-seo/","email":"mailto:775381540@qq.com","telephone":"+86-15168254598","priceRange":"面议","areaServed":{"@type":"Country","name":"中国"},"founder":{"@id":"https://lik45885-kk.github.io/kangge-seo//#person"},"serviceType":"搜索广告代运营","description":"百度 / Bing 搜索广告代运营服务，涵盖账户诊断、搜索词分析、落地页优化与持续复盘，账户由本人亲自操盘。"},{"@type":"WebSite","@id":"https://lik45885-kk.github.io/kangge-seo//#website","url":"https://lik45885-kk.github.io/kangge-seo/","name":"康哥亲投","inLanguage":"zh-CN","publisher":{"@id":"https://lik45885-kk.github.io/kangge-seo//#person"}},{"@type":"FAQPage","@id":"https://lik45885-kk.github.io/kangge-seo//#faq","mainEntity":[{"@type":"Question","name":"已经有运营团队，还能合作吗？","acceptedAnswer":{"@type":"Answer","text":"可以先做账户诊断、搜索词分析或落地页专项，再与现有团队明确分工。具体方式根据当前需求确认。"}},{"@type":"Question","name":"需要提供哪些资料？","acceptedAnswer":{"@type":"Answer","text":"业务介绍、投放渠道、近期账户报表、落地页与线索反馈。先确认诊断范围，再对齐需要提供的数据与访问权限。"}},{"@type":"Question","name":"如何评估投放效果？","acceptedAnswer":{"@type":"Answer","text":"合作前先统一线索标准、预算范围与观察周期，结合咨询数量、有效线索和后续反馈评估变化。投放表现也会受到业务竞争、页面承接与销售跟进等环节影响。"}},{"@type":"Question","name":"服务费用怎么确定？","acceptedAnswer":{"@type":"Answer","text":"根据投放渠道、账户规模、服务范围和协作频率确认，了解需求后给出具体服务内容与费用说明。"}}]}]}</script>
 
@@ -59,8 +72,12 @@
     <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="13" height="13" rx="2"/><path d="M16 8V3H3v13h5"/></symbol>
   </defs></svg>
   <header class="topbar"><div class="wrap">
-    <a class="brand" href="#top" aria-label="康哥亲投，返回顶部"><svg class="brand-mark icon" viewBox="0 0 32 32" aria-hidden="true"><path d="M5 24 16 5l11 19M9 18h14M5 28h22" stroke-width="1.8"/><circle cx="16" cy="5" r="2.5" fill="#fff"/></svg><div><strong>康哥亲投</strong><small>亲自操盘 · 不转手</small></div></a>
-    <div class="header-right"><span class="channel-note">百度 / Bing · 企业获客</span><button class="btn small" type="button" data-inquiry>聊聊投放需求<svg class="arrow" aria-hidden="true"><use href="#i-arrow"/></svg></button></div>
+    <a class="brand" href="./" aria-label="康哥亲投，返回首页"><svg class="brand-mark icon" viewBox="0 0 32 32" aria-hidden="true"><path d="M5 24 16 5l11 19M9 18h14M5 28h22" stroke-width="1.8"/><circle cx="16" cy="5" r="2.5" fill="#fff"/></svg><div><strong>康哥亲投</strong><small>亲自操盘 · 不转手</small></div></a>
+    <nav class="site-nav" aria-label="主导航">
+      <a href="./" aria-current="page">首页</a>
+      <a href="./resources/">资源中心</a>
+      <a href="#contact">联系我</a>
+    </nav>
   </div></header>
   <main id="top">
     <section class="hero" aria-labelledby="hero-title"><div class="wrap">
