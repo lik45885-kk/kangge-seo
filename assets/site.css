@@ -220,3 +220,41 @@ html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition
 .hero-cinematic .hero-side-note{position:absolute;right:0;top:142px;color:#c4e0e0;font-size:10px;writing-mode:vertical-rl;letter-spacing:.22em;opacity:.75}
 @media(max-width:760px){.hero-cinematic{min-height:auto;background-position:60% center}.hero-cinematic:before{background:linear-gradient(90deg,#061524e8,#061524b8 60%,#06152465)}.hero-cinematic .hero-grid{padding:115px 0 95px}.hero-cinematic .hero-copy h1{font-size:clamp(53px,9vw,75px)}.hero-cinematic .hero-side-note{display:none}}
 @media(max-width:480px){.hero-cinematic .hero-grid{padding:96px 0 82px}.hero-cinematic .hero-copy h1{font-size:clamp(46px,12vw,62px)}.hero-cinematic .hero-copy p{font-size:14px}.hero-cinematic .hero-strip strong{font-size:12px}}
+
+
+/* KK推广｜海岸编辑风首屏 */
+.page-home .site-head{position:absolute;left:0;right:0;top:0;background:transparent;border-color:transparent;box-shadow:none;backdrop-filter:none}
+.page-home .site-head.is-scrolled{background:#ffffffea;backdrop-filter:blur(18px);box-shadow:0 10px 35px #1b35421c}
+.page-home .site-head .brand-icon{display:none}
+.page-home .site-head .brand-name{font-family:"Songti SC","STSong","Noto Serif CJK SC","Source Han Serif SC",serif;font-weight:600;font-size:31px;letter-spacing:-.055em;color:#18334b}
+.page-home .site-head .brand-note{display:none}
+.page-home .site-head .site-nav a{font-family:"Songti SC","STSong","Noto Serif CJK SC",serif;font-weight:500;color:#29475a;font-size:16px;letter-spacing:.08em}
+.page-home .site-head .site-nav .nav-contact{padding:0;border-radius:0;background:none;box-shadow:none;color:#29475a}
+.page-home .site-head .site-nav .nav-contact .nav-arrow{display:none}
+.page-home .site-head.is-scrolled .site-nav a{color:#29475a}
+.page-home .hero-cinematic{color:#152d41;background-color:#b0c8d6;background-image:linear-gradient(90deg,#f4f4f0ac 0%,#d6e2e4a3 33%,#bfd8df20 68%),url("https://images.unsplash.com/photo-1774938101681-543593721cd3?auto=format&fit=crop&w=2200&q=85");background-position:center,center;min-height:min(920px,100svh)}
+.page-home .hero-cinematic:before{background:linear-gradient(0deg,#10293a27,transparent 34%),linear-gradient(90deg,#e9ebe8a8 0%,#dce7e69a 32%,#ffffff00 77%)}
+.page-home .hero-cinematic .hero-grid{min-height:min(870px,100svh);display:flex;align-items:center;padding:130px 0 110px}
+.page-home .hero-cinematic .hero-copy{max-width:770px}
+.page-home .hero-cinematic .hero-copy h1{font-family:"Songti SC","STSong","Noto Serif CJK SC","Source Han Serif SC",serif;font-size:clamp(48px,5.8vw,84px);font-weight:500;line-height:1.45;letter-spacing:-.06em;margin:28px 0 16px;color:#18354a}
+.page-home .hero-cinematic .hero-copy h1 .gradient{background:none;color:#18354a;-webkit-text-fill-color:currentColor}
+.page-home .hero-cinematic .eyebrow{font-family:"Songti SC","STSong",serif;color:#375c72;font-size:12px;font-weight:500;letter-spacing:.12em}
+.page-home .hero-cinematic .eyebrow:before{background:#547489}
+.page-home .hero-cinematic .hero-copy p{font-family:"Songti SC","STSong","Noto Serif CJK SC",serif;color:#264458;font-size:17px;line-height:2.05;max-width:690px}
+.page-home .hero-cinematic .hero-actions{margin-top:33px}
+.page-home .hero-cinematic .hero-actions .btn.primary{color:white;background:#20313e;border:1px solid #20313e;box-shadow:0 10px 25px #0f233028;font-family:"Songti SC","STSong",serif;font-size:16px;letter-spacing:.08em;padding:16px 34px;min-height:55px}
+.page-home .hero-cinematic .hero-actions .btn.primary:hover{background:#394c58}
+@media(max-width:760px){
+.page-home .site-head .brand-name{font-size:22px}.page-home .site-head .site-nav a{font-size:12px;letter-spacing:0}
+.page-home .hero-cinematic{background-position:center,60% center;min-height:760px}
+.page-home .hero-cinematic .hero-grid{min-height:760px;padding:115px 0 70px}
+.page-home .hero-cinematic .hero-copy h1{font-size:clamp(39px,8.1vw,57px);line-height:1.48}
+.page-home .hero-cinematic .hero-copy p{font-size:14px;max-width:500px}
+}
+@media(max-width:480px){
+.page-home .site-head .brand-name{font-size:19px}
+.page-home .hero-cinematic{min-height:680px;background-position:center,64% center}
+.page-home .hero-cinematic .hero-grid{min-height:680px;padding:130px 0 85px}
+.page-home .hero-cinematic .hero-copy h1{font-size:clamp(35px,9vw,47px)}
+.page-home .hero-cinematic .hero-copy p{font-size:13px}
+}
