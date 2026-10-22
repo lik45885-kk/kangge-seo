@@ -282,3 +282,61 @@ html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition
   .page-home .hero-cinematic{background-position:62% center}
   .page-home .hero-cinematic .hero-grid{min-height:690px}
 }
+
+
+/* 2026 Oct: editorial seaside redesign · photograph by Burak Berkay on Unsplash */
+.site-head .logo-mark-only,.site-footer .logo-mark-only{display:inline-flex;align-items:center;gap:0;padding:0;line-height:1}
+.mascot-k{width:68px;height:68px;display:block;filter:drop-shadow(0 6px 12px rgba(18,40,57,.11));transition:transform .35s cubic-bezier(.2,.85,.25,1)}
+.logo-mark-only:hover .mascot-k{transform:rotate(-7deg) scale(1.06)}
+.page-home .site-head .shell{height:94px}
+.page-home .site-head .site-nav a{font-family:"Songti SC","STSong","Noto Serif CJK SC",serif;font-weight:550;font-size:16px;letter-spacing:.07em}
+.page-home .hero-cinematic{
+  min-height:850px;
+  background-color:#cad5df;
+  background-image:linear-gradient(90deg,rgba(245,244,239,.72) 0%,rgba(242,245,244,.56) 33%,rgba(234,243,241,.12) 67%,rgba(231,240,242,.01) 100%),url("https://images.unsplash.com/photo-1696792681015-e058f48ac521?auto=format&fit=crop&w=2500&q=85");
+  background-position:center center,center 46%;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.page-home .hero-cinematic:before{background:linear-gradient(to top,rgba(16,31,44,.14),transparent 30%)}
+.page-home .hero-cinematic .hero-grid{min-height:850px;display:flex;align-items:center;padding:145px 0 112px}
+.page-home .hero-cinematic .hero-copy{width:100%;max-width:1030px}
+.page-home .hero-cinematic .hero-copy h1{font-family:"Songti SC","STSong","Noto Serif CJK SC","Source Han Serif SC",serif;font-size:clamp(68px,7vw,102px);letter-spacing:-.068em;font-weight:570;line-height:1.22;color:#122d40;margin:28px 0 28px;max-width:1050px;text-wrap:balance;text-shadow:0 1px 20px rgba(245,243,238,.28)}
+.page-home .hero-cinematic .hero-copy h1 .gradient{color:#122d40;-webkit-text-fill-color:currentColor;background:none}
+.page-home .hero-cinematic .hero-copy p{font-family:"Songti SC","STSong","Noto Serif CJK SC",serif;color:#29465a;font-size:19px;max-width:660px;line-height:2.05;text-shadow:0 1px 9px rgba(248,248,244,.34)}
+.page-home .hero-cinematic .eyebrow{font-family:"Songti SC","STSong",serif;font-size:12px;color:#49687c;letter-spacing:.1em}
+.page-home .hero-cinematic .hero-actions{margin-top:38px}
+.page-home .hero-cinematic .hero-actions .btn.primary{padding:17px 39px;min-height:58px;font-family:"Songti SC","STSong",serif;font-size:17px;letter-spacing:.1em;background:#1e3443;color:#fff}
+.page-home .hero-cinematic .hero-actions .btn.primary:hover{background:#2d4d60}
+.page-home .service-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.page-home .service-item{min-height:225px}
+.page-home .service-item h3{margin-top:45px}
+.page-home .method-panel{min-height:365px}
+.page-home .method-nav button{padding:18px 0}
+.page-home .about-visual{min-height:300px}
+.page-home .section{padding-top:91px;padding-bottom:91px}
+.page-home .feature{min-height:246px}
+@media(max-width:960px){
+  .page-home .hero-cinematic .hero-copy h1{font-size:clamp(54px,7.6vw,74px)}
+  .page-home .service-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:760px){
+  .site-head .mascot-k{width:59px;height:59px}
+  .page-home .site-head .shell{height:81px}
+  .page-home .hero-cinematic{min-height:740px;background-position:center,53% center;background-image:linear-gradient(90deg,rgba(247,247,242,.84),rgba(248,247,244,.63) 60%,rgba(248,247,244,.2)),url("https://images.unsplash.com/photo-1696792681015-e058f48ac521?auto=format&fit=crop&w=2500&q=85")}
+  .page-home .hero-cinematic .hero-grid{min-height:740px;padding:135px 0 90px}
+  .page-home .hero-cinematic .hero-copy h1{font-size:clamp(42px,8.2vw,65px);line-height:1.30;max-width:690px}
+  .page-home .hero-cinematic .hero-copy p{font-size:16px;max-width:600px}
+  .page-home .service-grid{grid-template-columns:repeat(1,minmax(0,1fr))}
+  .page-home .section{padding-top:74px;padding-bottom:74px}
+}
+@media(max-width:480px){
+  .site-head .mascot-k{width:54px;height:54px}
+  .page-home .site-head .site-nav{gap:13px}
+  .page-home .site-head .site-nav a{font-size:12px;letter-spacing:0}
+  .page-home .hero-cinematic{min-height:685px;background-position:center,60% center}
+  .page-home .hero-cinematic .hero-grid{min-height:685px;padding:135px 0 90px}
+  .page-home .hero-cinematic .hero-copy h1{font-size:clamp(39px,10vw,52px);line-height:1.26;letter-spacing:-.07em}
+  .page-home .hero-cinematic .hero-copy p{font-size:14px;line-height:1.92}
+  .page-home .hero-cinematic .hero-actions .btn.primary{font-size:14px;padding:13px 25px;min-height:49px}
+}
