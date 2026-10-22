@@ -34,7 +34,7 @@ if(form){
 form.addEventListener("submit",e=>{
 e.preventDefault();if(!form.reportValidity())return;
 const data=new FormData(form);const name=String(data.get("name")||"").trim();const phone=String(data.get("phone")||"").trim();const company=String(data.get("company")||"").trim();const detail=String(data.get("detail")||"").trim();
-const body=["你好，我想咨询百度推广代运营。","","称呼："+name,"联系电话："+phone,"公司："+(company||"未填写"),"当前需求：",detail||"希望进一步沟通。","","（由康哥亲投网站生成，请确认后发送）"].join("\n");
+const body=["你好，我想咨询百度推广代运营。","","称呼："+name,"联系电话："+phone,"公司："+(company||"未填写"),"当前需求：",detail||"希望进一步沟通。","","（百度推广代运营咨询，请确认后发送）"].join("\n");
 const mail=document.querySelector("#mail-action"),box=document.querySelector("#mail-preview");
 if(mail&&box){mail.href="mailto:775381540@qq.com?subject="+encodeURIComponent("百度推广代运营咨询｜"+name)+"&body="+encodeURIComponent(body);box.hidden=false;box.scrollIntoView({behavior:reduced?"auto":"smooth",block:"nearest"});toast("需求邮件已生成，请点击按钮在邮箱中发送");}
 });
