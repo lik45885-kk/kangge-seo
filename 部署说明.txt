@@ -1,0 +1,15 @@
+康哥亲投 SEO开放收录版（2026-10-22）
+
+修改内容：
+1. index.html: meta robots 从 noindex,nofollow 修改为 index,follow。
+2. robots.txt: 从 Disallow: / 改为 Allow: /，并声明 sitemap.xml。
+3. sitemap.xml: 新增首页网址。原有网站设计、文案、Canonical均未修改。
+
+上传：打开 GitHub 仓库 https://github.com/lik45885-kk/kangge-seo ，进入 Code 页面，点击 Add file > Upload files，上传本压缩包解压后的 index.html、robots.txt、sitemap.xml 三个文件（不是ZIP），覆盖同名文件后点击 Commit changes。
+
+部署后检查：
+- https://lik45885-kk.github.io/kangge-seo/ 源代码中的 robots 为 index,follow
+- https://lik45885-kk.github.io/kangge-seo/robots.txt 显示 Allow: /
+- https://lik45885-kk.github.io/kangge-seo/sitemap.xml 能打开 XML
+
+注意：开放抓取与索引不保证搜索引擎实际收录或排名。GitHub Pages有商业用途限制，网站目前包含SEM服务获客内容；建议将GitHub Pages作为学习测试站，正式商用前选择符合条款且在国内稳定可访问的托管方案。表单当前 formKey 为空，不能保证提交线索成功。
