@@ -2,6 +2,13 @@
 const nav=document.querySelector(".site-head");
 const onScroll=()=>nav?.classList.toggle("is-scrolled",window.scrollY>12);
 onScroll();window.addEventListener("scroll",onScroll,{passive:true});
+const aboutNav=document.querySelector(".nav-about");
+if(aboutNav){
+const summary=aboutNav.querySelector("summary");
+document.addEventListener("click",event=>{if(!aboutNav.contains(event.target))aboutNav.open=false;});
+aboutNav.addEventListener("keydown",event=>{if(event.key==="Escape"&&aboutNav.open){event.preventDefault();aboutNav.open=false;summary.focus();}});
+aboutNav.addEventListener("focusout",event=>{if(!aboutNav.contains(event.relatedTarget))aboutNav.open=false;});
+}
 const reduced=window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 const revealEls=[...document.querySelectorAll(".reveal")];
 if("IntersectionObserver" in window&&!reduced){
