@@ -225,3 +225,29 @@
  .portfolio-home .hero-cinematic .hero-subactions a,
  .resources-page .resource-topic-filter button{transition:none!important}
 }
+
+/* Filter count stays available to screen readers without visual clutter. */
+.resources-page .resource-topic-filter .sr-only{
+ position:absolute!important;width:1px!important;height:1px!important;
+ padding:0!important;margin:-1px!important;overflow:hidden!important;
+ clip:rect(0,0,0,0)!important;white-space:nowrap!important;
+ border:0!important;
+}
+/* Readable supporting labels in content-heavy sections. */
+.article-page .article-copy .article-disclaimer,
+.article-page .article-related-grid p,
+.article-page .article-related-grid span,
+.resources-page .resource-article-card p,
+.resources-page .resource-article-card .card-foot{
+  color:#526e7e!important;
+}
+/* Safe fallback for horizontally wide contents: scroll only inside table. */
+.article-page .article-copy .table-wrap:focus-visible{
+ outline:2px solid #557d92;outline-offset:3px;
+}
+/* Keep the existing personal photography intact and responsive. */
+@media(max-width:480px){
+ .page-experience .story-services p,
+ .contact-page .contact-brief p{font-size:12.5px;line-height:1.95}
+ .article-page .article-container>.article-copy{overflow-wrap:anywhere}
+}
