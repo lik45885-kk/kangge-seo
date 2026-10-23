@@ -47,6 +47,22 @@
   }
 }
 
+
+/* Stagger existing sections just a touch, without changing their HTML. */
+@media(prefers-reduced-motion: no-preference){
+  .folio-focus-item:nth-child(2).reveal,
+  .story-entry:nth-child(2).reveal,
+  .gallery-photo:nth-child(3n + 2).reveal{transition-delay:85ms}
+  .folio-focus-item:nth-child(3).reveal,
+  .story-entry:nth-child(3).reveal,
+  .gallery-photo:nth-child(3n + 3).reveal{transition-delay:145ms}
+  .resource-note[open] .note-body{animation:noteQuietEntrance .43s cubic-bezier(.18,.75,.2,1) both}
+}
+@keyframes noteQuietEntrance{
+  from{opacity:.3;transform:translate3d(0,7px,0)}
+  to{opacity:1;transform:none}
+}
+
 /* 3 / Accessible five-step content transitions and a progress line. */
 .portfolio-home .folio-method .folio-step{position:relative}
 .portfolio-home .folio-method .folio-step::before{
@@ -135,13 +151,13 @@
 }
 
 /* Keep mobile compositing cheap and preserve the original gallery. */
-@media(max-width:760px){
-  @media (prefers-reduced-motion: no-preference){
-    .portfolio-home .hero-cinematic .hero-photo img{
-      animation-duration:11s;
-      animation-name:seaCinematicPushMobile;
-    }
+@media(max-width:760px) and (prefers-reduced-motion: no-preference){
+  .portfolio-home .hero-cinematic .hero-photo img{
+    animation-duration:11s;
+    animation-name:seaCinematicPushMobile;
   }
+}
+@media(max-width:760px){
   .portfolio-home .folio-method .folio-step::before{
     top:auto;bottom:0;left:9px;right:9px;width:auto;height:2px;
     transform:scaleX(.2);transform-origin:left;
