@@ -449,3 +449,13 @@ html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition
 .photo-collection .gallery-photo img{width:100%;height:auto;object-fit:initial}
 @media(max-width:960px){.sea-gallery.photo-collection{column-count:2;column-gap:20px}.photo-collection .gallery-photo{margin-bottom:20px}}
 @media(max-width:600px){.sea-gallery.photo-collection{column-count:1;margin-bottom:42px}.photo-collection .gallery-photo{margin-bottom:18px}}
+
+/* Selected photographs, with the full collection on request. */
+.sea-gallery.photo-collection{margin-bottom:0}
+.gallery-actions{display:flex;justify-content:center;padding:16px 0 72px}
+.gallery-all{display:inline-flex;align-items:center;justify-content:center;gap:22px;min-height:48px;padding:12px 24px;border:1px solid #cddce3;border-radius:0;background:#fff;color:#284d62;font-size:13px;line-height:1.5;transition:background .2s,border-color .2s}
+.gallery-all:hover{background:#f4f8fa;border-color:#91afc0}
+.gallery-button-count{font-size:11px;color:#8ca0ab;font-variant-numeric:tabular-nums}
+.gallery-all svg{width:11px;height:8px;transition:transform .2s}
+.gallery-all[aria-expanded="true"] svg{transform:rotate(180deg)}
+@media(max-width:600px){.gallery-actions{padding:8px 0 52px}.gallery-all{min-height:46px;font-size:12px}}

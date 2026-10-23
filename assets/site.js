@@ -24,6 +24,22 @@ visual.style.setProperty("--my",(y*13).toFixed(1)+"px");
 });
 visual.addEventListener("pointerleave",()=>{visual.style.setProperty("--mx","0px");visual.style.setProperty("--my","0px")});
 }
+const galleryToggle=document.querySelector("[data-gallery-toggle]");
+if(galleryToggle){
+const extraPhotos=[...document.querySelectorAll("[data-gallery-extra]")];
+const label=galleryToggle.querySelector("[data-gallery-label]");
+const total=document.querySelectorAll(".photo-collection img").length;
+extraPhotos.forEach(photo=>photo.hidden=true);
+galleryToggle.hidden=extraPhotos.length===0;
+galleryToggle.addEventListener("click",()=>{
+const expanded=galleryToggle.getAttribute("aria-expanded")!=="true";
+extraPhotos.forEach(photo=>photo.hidden=!expanded);
+galleryToggle.setAttribute("aria-expanded",String(expanded));
+galleryToggle.setAttribute("aria-label",expanded?"收起照片":"查看全部"+total+"张照片");
+label.textContent=expanded?"收起照片":"查看全部照片";
+if(!expanded)galleryToggle.scrollIntoView({block:"center",behavior:reduced?"auto":"smooth"});
+});
+}
 const toastEl=document.querySelector("#toast");
 function toast(message){if(!toastEl)return;toastEl.textContent=message;toastEl.hidden=false;clearTimeout(toast._timer);toast._timer=setTimeout(()=>toastEl.hidden=true,3100);}
 document.querySelectorAll("[data-copy]").forEach(button=>button.addEventListener("click",async()=>{
