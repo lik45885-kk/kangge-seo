@@ -73,3 +73,36 @@
   .contact-page .contact-outro h1{font-size:clamp(35px,10vw,44px)}
   .photography-page .sea-gallery.photo-collection{margin-bottom:49px}
 }
+
+
+/* Former Contact introductory hero now appears second, with a distinct personal sea photo. */
+.contact-page .contact-outro{overflow:visible}
+.contact-page .contact-outro-grid{
+  display:grid;
+  grid-template-columns:minmax(0,1.18fr) minmax(0,.82fr);
+  gap:clamp(40px,5.6vw,90px);
+  align-items:center;
+}
+.contact-page .contact-outro-copy{min-width:0}
+.contact-page .contact-outro-photo{
+  width:100%;height:clamp(390px,38vw,540px);margin:0;
+  overflow:hidden;background:#849caf;
+}
+.contact-page .contact-outro-photo img{
+  display:block;width:100%;height:100%;max-width:none;
+  object-fit:cover;object-position:center 48%;filter:none;
+}
+.contact-page .contact-primary .contact-sea img{filter:none}
+@media(max-width:960px){
+  .contact-page .contact-outro-grid{grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:32px}
+  .contact-page .contact-outro-photo{height:450px}
+}
+@media(max-width:760px){
+  .contact-page .contact-outro-grid{grid-template-columns:1fr;gap:36px}
+  .contact-page .contact-outro-photo{height:auto;aspect-ratio:4/4.4;max-width:600px}
+}
+@media(max-width:480px){
+  .contact-page .contact-outro-grid{gap:28px}
+  .contact-page .contact-outro-photo{aspect-ratio:4/4.8}
+  .contact-page .contact-outro{padding-top:60px;padding-bottom:75px}
+}
