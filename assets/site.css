@@ -305,14 +305,68 @@ html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition
   .page-home .hero-cinematic .hero-copy h1{font-size:clamp(32px,10.3vw,36px)}
 }
 
-/* Direct contact: one number beside the sea. */
+/* Contact details beside the ocean. */
 .contact-simple{grid-template-columns:.9fr 1.1fr;gap:80px;align-items:center;padding:80px 0 100px;scroll-margin-top:100px}
-.contact-phone-only{display:flex;flex-direction:column;align-items:flex-start;gap:16px}
-.contact-number{border:0;padding:0;background:none;color:#193344;font-size:clamp(32px,3.4vw,48px);font-weight:650;letter-spacing:-.035em;line-height:1.3;white-space:nowrap;font-variant-numeric:tabular-nums;cursor:pointer;text-align:left}
-.contact-number:hover{color:#40687c}
-.contact-phone-only .contact-wechat-note{margin:0;color:#708595;font-size:15px;line-height:1.5}
+.contact-simple .contact-methods{margin-top:28px;gap:12px}
+.contact-simple .contact-method{width:100%;padding:16px 20px;gap:16px;min-height:87px;border:1px solid #e0e8eb;border-radius:12px;background:#f8fafb;text-align:left;color:#1b3949;transition:background .2s,border-color .2s}
+.contact-simple .contact-method:hover{transform:none;background:#f0f5f7;border-color:#b9cdd7}
+.contact-icon{flex:0 0 32px;display:grid;place-items:center;color:#688594}
+.contact-icon svg{width:24px;height:24px}
+.contact-detail{flex:1;min-width:0}
+.contact-simple .contact-method .mini{font-size:11px;letter-spacing:.04em;font-weight:500;color:#718794;line-height:1.5}
+.contact-simple .contact-method strong{font-size:24px;font-weight:600;letter-spacing:-.035em;line-height:1.4;margin-top:5px;font-variant-numeric:tabular-nums;white-space:nowrap}
+.contact-copy{flex:none;font-size:11px;color:#7a919e;line-height:1.5}
 .contact-sea{position:relative;aspect-ratio:1448/1086;height:auto;margin:0;overflow:hidden;border-radius:20px;background:#87a6b8;isolation:isolate}
 .contact-sea img{display:block;width:100%;height:100%;max-width:none;object-fit:cover;object-position:center}
-@media(max-width:960px){.contact-simple{gap:42px}}
-@media(max-width:760px){.contact-simple{grid-template-columns:1fr;gap:32px;padding:60px 0 76px}.contact-number{font-size:38px}}
-@media(max-width:480px){.contact-number{font-size:32px}.contact-phone-only{gap:12px}.contact-phone-only .contact-wechat-note{font-size:14px}.contact-sea{border-radius:16px}}
+
+/* Homepage services and working process. */
+.services-section{background:#fff;border-top:1px solid #e8eef1}
+.services-layout{display:grid;grid-template-columns:.8fr 1.2fr;gap:80px;align-items:start}
+.simple-heading h2{font-size:clamp(35px,4vw,50px);font-weight:650;letter-spacing:-.055em;line-height:1.28;margin-top:20px}
+.services-layout>.simple-heading{padding-top:5px}
+.service-list{border-top:1px solid #d8e2e7}
+.service-row{display:grid;grid-template-columns:28px 160px 1fr;align-items:baseline;gap:20px;padding:31px 0;border-bottom:1px solid #d8e2e7}
+.row-number{font-size:11px;letter-spacing:.04em;font-weight:500;color:#7993a1;font-variant-numeric:tabular-nums}
+.service-row h3,.work-step h3{font-size:21px;font-weight:600;letter-spacing:-.035em;line-height:1.45}
+.service-row p,.work-step p{font-size:13px;line-height:1.9;color:#6b7f8c}
+.work-section{background:#f4f7f8}
+.work-section .section-head{margin-bottom:48px}
+.work-section .section-head p{font-size:13px;max-width:280px}
+.work-steps{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:48px}
+.work-step{border-top:1px solid #cddce3;padding-top:20px}
+.work-step h3{margin-top:31px;margin-bottom:12px}
+.work-step p{max-width:300px}
+@media(max-width:1050px){
+  .services-layout{grid-template-columns:.75fr 1.25fr;gap:48px}
+  .service-row{grid-template-columns:25px 1fr;gap:8px 18px;padding:25px 0}
+  .service-row p{grid-column:2}
+  .contact-simple{gap:42px}
+  .contact-simple .contact-method{padding:15px;gap:10px}
+  .contact-simple .contact-method strong{font-size:22px}
+}
+@media(max-width:760px){
+  .services-layout{grid-template-columns:1fr;gap:34px}
+  .simple-heading h2{font-size:36px}
+  .service-row{grid-template-columns:28px 1fr;gap:8px 16px;padding:24px 0}
+  .service-row h3,.work-step h3{font-size:20px}
+  .work-section .section-head{margin-bottom:32px;gap:18px}
+  .work-section .simple-heading h2 span{display:block}
+  .work-steps{grid-template-columns:1fr;gap:0}
+  .work-step{display:grid;grid-template-columns:28px 1fr;gap:8px 16px;padding:24px 0}
+  .work-step .row-number{padding-top:4px}
+  .work-step h3{margin:0}
+  .work-step p{grid-column:2;max-width:none}
+  .contact-simple{grid-template-columns:1fr;gap:32px;padding:60px 0 76px}
+}
+@media(max-width:480px){
+  .simple-heading h2{font-size:32px}
+  .contact-simple .contact-method{min-height:83px;padding:14px;gap:10px}
+  .contact-simple .contact-method strong{font-size:21px}
+  .contact-icon{flex-basis:25px}
+  .contact-icon svg{width:21px;height:21px}
+  .contact-sea{border-radius:16px}
+}
+@media(max-width:360px){
+  .contact-simple .contact-method strong{font-size:19px}
+  .contact-copy{display:none}
+}
