@@ -97,15 +97,13 @@
   .photo-parallax-enabled .photo-collection .gallery-photo a:hover img{
     --photo-scale:1.028;
   }
-  .photo-collection .gallery-photo:not(:has(img[style*="--photo-shift"])) a img{
+  body:not(.photo-parallax-enabled) .photo-collection .gallery-photo a img{
     transition:transform .58s cubic-bezier(.22,.7,.2,1);
   }
-  .photo-collection .gallery-photo:not(:has(img[style*="--photo-shift"])) a:hover img{
+  body:not(.photo-parallax-enabled) .photo-collection .gallery-photo a:hover img{
     transform:scale(1.022);
   }
 }
-/* :has fallback is unnecessary for parallax-enabled photos; hover is handled
-   by --photo-scale above. Non-parallax devices retain unchanged image layout. */
 
 /* 5 / Light-touch interface feedback: never delay a click or navigation. */
 @media (hover:hover) and (pointer:fine){
