@@ -42,31 +42,84 @@
 .portfolio-home .folio-focus-item p{font-size:13px;line-height:2;color:#778a96;max-width:255px}
 .portfolio-home .folio-focus-foot{display:flex;align-items:center;justify-content:space-between;gap:22px;padding-top:28px;font-size:11px;letter-spacing:.04em;color:#8398a4}
 .portfolio-home .folio-focus-foot b{font-weight:500;color:#506b7a}
-/* 03 — methods */
-.portfolio-home .folio-method{background:#122b3a;color:#eef5f4;overflow:hidden;isolation:isolate}
-.portfolio-home .folio-method:before{content:"";position:absolute;width:680px;height:680px;right:-210px;top:-160px;border:1px solid #c9e6e31f;border-radius:50%;box-shadow:0 0 0 60px #c9e6e30a,0 0 0 140px #c9e6e307,0 0 0 225px #c9e6e306;pointer-events:none}
-.portfolio-home .folio-method .folio-eyebrow{color:#96bec2}
-.portfolio-home .folio-method .folio-title{color:#f3f4ee}
+/* 03 — methods: light sea-mist editorial redesign */
+.portfolio-home .folio-method{
+  background:linear-gradient(125deg,#e1ebed 0%,#ecf2f2 54%,#e4edef 100%);
+  color:#243e4e;
+  overflow:hidden;
+  isolation:isolate;
+}
+.portfolio-home .folio-method:before{
+  content:"";
+  position:absolute;
+  width:680px;height:680px;right:-210px;top:-160px;
+  border:1px solid rgba(108,146,158,.17);
+  border-radius:50%;
+  box-shadow:0 0 0 60px rgba(139,176,182,.055),0 0 0 140px rgba(139,176,182,.038),0 0 0 225px rgba(139,176,182,.025);
+  pointer-events:none;
+}
+.portfolio-home .folio-method .folio-eyebrow{color:#547b8d}
+.portfolio-home .folio-method .folio-title{color:#213b4b}
 .portfolio-home .folio-method .folio-heading{margin-bottom:64px}
-.portfolio-home .folio-method .folio-heading .folio-intro{color:#9fb5c0}
+.portfolio-home .folio-method .folio-heading .folio-intro{color:#658091}
 .portfolio-home .folio-method-shell{display:grid;grid-template-columns:390px minmax(0,1fr);gap:65px;align-items:stretch}
-.portfolio-home .folio-steps{display:flex;flex-direction:column;border-top:1px solid #dbe9e834}
-.portfolio-home .folio-step{border:0;border-bottom:1px solid #dbe9e834;background:none;color:#aabfc7;text-align:left;display:flex;align-items:center;gap:20px;width:100%;padding:20px 4px;min-height:80px;cursor:pointer;transition:color .2s,padding-left .2s}
-.portfolio-home .folio-step:hover,.portfolio-home .folio-step[aria-selected="true"]{color:white;padding-left:12px}
-.portfolio-home .folio-step .step-n{font-family:Georgia,serif;font-size:12px;color:#96b6c2;flex:0 0 28px}
+.portfolio-home .folio-steps{display:flex;flex-direction:column;border-top:1px solid #b9ccd3}
+.portfolio-home .folio-step{
+  border:0;border-bottom:1px solid #b9ccd3;
+  background:transparent;color:#587587;text-align:left;
+  display:flex;align-items:center;gap:20px;width:100%;
+  padding:20px 4px;min-height:80px;cursor:pointer;
+  transition:color .2s,padding-left .2s,background .2s;
+}
+.portfolio-home .folio-step:hover,
+.portfolio-home .folio-step[aria-selected="true"]{
+  color:#183d52;
+  padding-left:12px;
+  background:linear-gradient(90deg,rgba(255,255,255,.44),transparent 92%);
+}
+.portfolio-home .folio-step .step-n{font-family:Georgia,serif;font-size:12px;color:#648594;flex:0 0 28px}
 .portfolio-home .folio-step .step-name{font-size:18px;font-family:"Songti SC","STSong","Noto Serif CJK SC",serif;letter-spacing:.03em}
 .portfolio-home .folio-step .step-arr{margin-left:auto;font-size:18px;opacity:0;transform:translateX(-5px);transition:all .2s}
-.portfolio-home .folio-step[aria-selected="true"] .step-arr,.portfolio-home .folio-step:hover .step-arr{opacity:1;transform:none}
-.portfolio-home .folio-stage{position:relative;min-height:430px;border:1px solid #d6e6e42a;background:linear-gradient(130deg,#2344558a,#122d3c66);display:grid;align-items:center;padding:64px 67px 70px;overflow:hidden}
-.portfolio-home .folio-stage:after{content:"";position:absolute;right:-165px;bottom:-210px;width:520px;height:520px;border:1px solid #c3e0df25;border-radius:50%;box-shadow:0 0 0 75px #c0e2de09,0 0 0 155px #c0e2de07}
+.portfolio-home .folio-step[aria-selected="true"] .step-arr,
+.portfolio-home .folio-step:hover .step-arr{opacity:1;transform:none}
+.portfolio-home .folio-stage{
+  position:relative;min-height:430px;
+  border:1px solid #c9d8dc;
+  background:linear-gradient(135deg,rgba(255,255,255,.84) 0%,rgba(240,247,246,.88) 100%);
+  box-shadow:0 24px 54px rgba(57,93,105,.065);
+  display:grid;align-items:center;padding:64px 67px 70px;overflow:hidden;
+}
+.portfolio-home .folio-stage:after{
+  content:"";
+  position:absolute;right:-165px;bottom:-210px;
+  width:520px;height:520px;
+  border:1px solid rgba(104,149,163,.18);
+  border-radius:50%;
+  box-shadow:0 0 0 75px rgba(127,166,175,.055),0 0 0 155px rgba(127,166,175,.038);
+  pointer-events:none;
+}
 .portfolio-home .folio-stage-panel{position:relative;z-index:1;max-width:590px;animation:folioFade .4s ease both}
 .portfolio-home .folio-stage-panel[hidden]{display:none}
-.portfolio-home .folio-stage-index{display:block;font-family:Georgia,serif;color:#99c4cb;font-size:12px;letter-spacing:.13em;margin-bottom:45px}
-.portfolio-home .folio-stage-panel h3{font-family:"Songti SC","STSong","Noto Serif CJK SC",serif;font-size:clamp(29px,3vw,43px);line-height:1.45;letter-spacing:-.04em;font-weight:500;color:#f6f7f3}
-.portfolio-home .folio-stage-panel p{font-size:15px;color:#b9cdd3;margin-top:19px;line-height:2;max-width:460px}
-.portfolio-home .folio-stage-bottom{position:absolute;left:67px;right:67px;bottom:33px;display:flex;justify-content:space-between;align-items:center;color:#9eb9c0;font-family:Georgia,serif;font-size:11px;letter-spacing:.1em}
-.portfolio-home .folio-stage-bottom .folio-line{width:76px;height:1px;background:#ffffff59}
-.portfolio-home .folio-method-footer{display:flex;justify-content:space-between;margin-top:27px;font-size:11px;letter-spacing:.06em;color:#90aeb8}
+.portfolio-home .folio-stage-index{
+  display:block;font-family:Georgia,serif;color:#6a8d9d;
+  font-size:12px;letter-spacing:.13em;margin-bottom:45px;
+}
+.portfolio-home .folio-stage-panel h3{
+  font-family:"Songti SC","STSong","Noto Serif CJK SC",serif;
+  font-size:clamp(29px,3vw,43px);line-height:1.45;letter-spacing:-.04em;
+  font-weight:500;color:#223e4f;
+}
+.portfolio-home .folio-stage-panel p{
+  font-size:15px;color:#617d8b;
+  margin-top:19px;line-height:2;max-width:460px;
+}
+.portfolio-home .folio-stage-bottom{
+  position:absolute;left:67px;right:67px;bottom:33px;
+  display:flex;justify-content:space-between;align-items:center;
+  color:#78949f;font-family:Georgia,serif;font-size:11px;letter-spacing:.1em;
+}
+.portfolio-home .folio-stage-bottom .folio-line{width:76px;height:1px;background:#9db7bf}
+.portfolio-home .folio-method-footer{display:flex;justify-content:space-between;margin-top:27px;font-size:11px;letter-spacing:.06em;color:#6c8795}
 @keyframes folioFade{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
 /* 04 — selected practice and writing */
 .portfolio-home .folio-practice{background:#fff}
