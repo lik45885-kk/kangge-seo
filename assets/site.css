@@ -506,3 +506,22 @@ html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition
   }
   .site-nav .nav-about-menu a{padding:15px 16px}
 }
+
+/* Editorial K monogram: refined global sizing and hover */
+.site-head .logo-mark-only .mascot-k{
+  width:56px;height:56px;display:block;
+  transition:opacity .24s ease,transform .24s ease;
+}
+.site-footer .logo-mark-only .mascot-k{
+  width:52px;height:52px;display:block;
+  transition:opacity .24s ease,transform .24s ease;
+}
+.logo-mark-only:hover .mascot-k{transform:translateY(-1px);opacity:.83}
+@media(max-width:760px){
+  .site-head .logo-mark-only .mascot-k{width:52px;height:52px}
+  .site-footer .logo-mark-only .mascot-k{width:49px;height:49px}
+}
+@media(max-width:480px){
+  .site-head .logo-mark-only .mascot-k{width:49px;height:49px}
+  .site-footer .logo-mark-only .mascot-k{width:47px;height:47px}
+}
