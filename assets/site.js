@@ -26,17 +26,18 @@ const toastEl=document.querySelector("#toast");
 function toast(message){if(!toastEl)return;toastEl.textContent=message;toastEl.hidden=false;clearTimeout(toast._timer);toast._timer=setTimeout(()=>toastEl.hidden=true,3100);}
 document.querySelectorAll("[data-copy]").forEach(button=>button.addEventListener("click",async()=>{
 const value=button.dataset.copy;
-try{if(!navigator.clipboard)throw new Error("clipboard missing");await navigator.clipboard.writeText(value);toast("已复制："+value);}
+try{
+let copied=false;
+if(navigator.clipboard&&window.isSecureContext){try{await navigator.clipboard.writeText(value);copied=true;}catch(_){}}
+if(!copied){
+const previous=document.activeElement,field=document.createElement("textarea");
+field.value=value;field.setAttribute("readonly","");field.style.cssText="position:fixed;left:-9999px;top:0;opacity:0";
+document.body.appendChild(field);field.select();field.setSelectionRange(0,value.length);
+try{copied=document.execCommand("copy");}finally{field.remove();previous?.focus({preventScroll:true});}
+}
+if(!copied)throw new Error("copy unavailable");
+toast("已复制："+value);
+}
 catch(_){toast("复制受限制，请手动复制："+value);}
 }));
-const form=document.querySelector("#brief-form");
-if(form){
-form.addEventListener("submit",e=>{
-e.preventDefault();if(!form.reportValidity())return;
-const data=new FormData(form);const name=String(data.get("name")||"").trim();const phone=String(data.get("phone")||"").trim();const company=String(data.get("company")||"").trim();const detail=String(data.get("detail")||"").trim();
-const body=["你好，我想咨询百度推广代运营。","","称呼："+name,"联系电话："+phone,"公司："+(company||"未填写"),"当前需求：",detail||"希望进一步沟通。","","（百度推广代运营咨询，请确认后发送）"].join("\n");
-const mail=document.querySelector("#mail-action"),box=document.querySelector("#mail-preview");
-if(mail&&box){mail.href="mailto:775381540@qq.com?subject="+encodeURIComponent("百度推广代运营咨询｜"+name)+"&body="+encodeURIComponent(body);box.hidden=false;box.scrollIntoView({behavior:reduced?"auto":"smooth",block:"nearest"});toast("需求邮件已生成，请点击按钮在邮箱中发送");}
-});
-}
 })();
