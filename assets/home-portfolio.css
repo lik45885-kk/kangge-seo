@@ -1,0 +1,167 @@
+/* Home portfolio redesign • independent search-marketing practice • 2026-10-23 */
+.page-home.portfolio-home{background:#fff;color:#213545}
+.page-home.portfolio-home .shell{width:min(1240px,calc(100% - 112px))}
+.page-home.portfolio-home .site-head{background:#ffffffeb}
+.page-home.portfolio-home .site-head .shell{width:min(1240px,calc(100% - 112px))}
+.page-home.portfolio-home .hero-cinematic{min-height:clamp(730px,86svh,960px);background:#567789}
+.page-home.portfolio-home .hero-cinematic:before{background:linear-gradient(90deg,rgba(8,25,40,.44) 0%,rgba(8,25,40,.20) 38%,transparent 74%)}
+.page-home.portfolio-home .hero-cinematic .hero-photo{inset:0 0 -4%}
+.page-home.portfolio-home .hero-cinematic .hero-photo img{object-position:50% 38%;filter:none}
+.page-home.portfolio-home .hero-cinematic .hero-grid{min-height:clamp(730px,86svh,960px);padding:104px 0 130px;align-items:center}
+.page-home.portfolio-home .hero-cinematic .hero-copy{max-width:1050px}
+.page-home.portfolio-home .hero-cinematic .hero-copy h1{font-family:"Songti SC","STSong","Noto Serif CJK SC","Source Han Serif SC",serif;font-size:clamp(53px,6vw,93px);font-weight:550;letter-spacing:-.075em;line-height:1.32;max-width:1030px;margin:28px 0 27px;color:#fffdf7;text-shadow:0 1px 16px rgba(11,30,43,.13)}
+.page-home.portfolio-home .hero-cinematic .hero-copy h1 span{display:inline-block;color:#fffdf7;-webkit-text-fill-color:#fffdf7}
+.page-home.portfolio-home .hero-cinematic .eyebrow{font-family:Georgia,"Times New Roman",serif;font-size:12px;letter-spacing:.22em;color:#f0f5f4;text-shadow:0 1px 9px #07233270}
+.page-home.portfolio-home .hero-cinematic .eyebrow:before{width:24px}
+.page-home.portfolio-home .hero-cinematic .hero-copy p{max-width:660px;font-family:"Songti SC","STSong","Noto Serif CJK SC",serif;font-size:18px;line-height:2.04;letter-spacing:.014em;font-weight:450;color:#f5f7f4}
+.page-home.portfolio-home .hero-cinematic .hero-actions{margin-top:38px}
+.page-home.portfolio-home .hero-cinematic .hero-actions .btn.primary{display:inline-flex;min-width:199px;justify-content:space-between;font-size:15px;letter-spacing:.05em;font-weight:560;padding:16px 23px;background:rgba(255,255,255,.95);color:#213a4b;border:1px solid #ffffffde;border-radius:3px;box-shadow:none;transition:transform .25s,background .25s}
+.page-home.portfolio-home .hero-cinematic .hero-actions .btn.primary:hover{background:white;transform:translateY(-3px)}
+.portfolio-home .folio-hero-aside{position:absolute;left:0;right:0;bottom:31px;z-index:3;pointer-events:none}
+.portfolio-home .folio-hero-aside .shell{display:flex;justify-content:space-between;align-items:center;color:#f5f9f3c2;font-size:10px;letter-spacing:.17em}
+.portfolio-home .folio-hero-aside span:last-child{display:flex;gap:9px;align-items:center}
+.portfolio-home .folio-scroll-line{height:1px;width:33px;background:#f7faf9a8}
+.portfolio-home .folio-eyebrow{display:inline-flex;align-items:center;gap:13px;font-size:11px;letter-spacing:.17em;color:#688495;font-weight:600}
+.portfolio-home .folio-eyebrow:before{content:"";display:block;width:24px;height:1px;background:currentColor;opacity:.7}
+.portfolio-home .folio-section{position:relative;padding:128px 0}
+.portfolio-home .folio-title{font-family:"Songti SC","STSong","Noto Serif CJK SC","Source Han Serif SC",serif;font-size:clamp(43px,4.6vw,68px);font-weight:550;line-height:1.37;letter-spacing:-.065em;color:#1f3545;margin:24px 0 0}
+.portfolio-home .folio-heading{display:flex;align-items:end;justify-content:space-between;gap:44px;margin-bottom:65px}
+.portfolio-home .folio-heading .folio-intro{max-width:300px;font-size:14px;line-height:2.15;color:#738796}
+.portfolio-home .folio-text-link{display:inline-flex;align-items:center;gap:14px;padding-bottom:7px;border-bottom:1px solid #9daebb;font-size:13px;letter-spacing:.03em;color:#315668;transition:gap .25s,color .25s,border-color .25s}
+.portfolio-home .folio-text-link:hover{gap:23px;border-color:#1e3c50;color:#102f41}
+.portfolio-home .folio-text-link .arrow{font-size:18px;line-height:1}
+/* 02 — disciplines */
+.portfolio-home .folio-focus{background:#f6f7f5}
+.portfolio-home .folio-focus-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid #cbd8d8}
+.portfolio-home .folio-focus-item{padding:24px 32px 26px 0;min-height:325px;position:relative;border-bottom:1px solid #cbd8d8}
+.portfolio-home .folio-focus-item + .folio-focus-item{padding-left:32px;border-left:1px solid #cbd8d8}
+.portfolio-home .folio-focus-item .folio-num{font-family:Georgia,serif;font-size:13px;color:#8198a3;letter-spacing:.04em}
+.portfolio-home .folio-focus-item .folio-focus-icon{margin-top:48px;margin-bottom:24px;display:block;width:35px;height:35px}
+.portfolio-home .folio-focus-item .folio-focus-icon svg{width:100%;height:100%;stroke:#477080;stroke-width:1;fill:none}
+.portfolio-home .folio-focus-item h3{font-family:"Songti SC","STSong","Noto Serif CJK SC",serif;font-size:29px;font-weight:550;letter-spacing:-.045em;color:#1c3547;margin-bottom:14px}
+.portfolio-home .folio-focus-item p{font-size:13px;line-height:2;color:#778a96;max-width:255px}
+.portfolio-home .folio-focus-foot{display:flex;align-items:center;justify-content:space-between;gap:22px;padding-top:28px;font-size:11px;letter-spacing:.04em;color:#8398a4}
+.portfolio-home .folio-focus-foot b{font-weight:500;color:#506b7a}
+/* 03 — methods */
+.portfolio-home .folio-method{background:#122b3a;color:#eef5f4;overflow:hidden;isolation:isolate}
+.portfolio-home .folio-method:before{content:"";position:absolute;width:680px;height:680px;right:-210px;top:-160px;border:1px solid #c9e6e31f;border-radius:50%;box-shadow:0 0 0 60px #c9e6e30a,0 0 0 140px #c9e6e307,0 0 0 225px #c9e6e306;pointer-events:none}
+.portfolio-home .folio-method .folio-eyebrow{color:#96bec2}
+.portfolio-home .folio-method .folio-title{color:#f3f4ee}
+.portfolio-home .folio-method .folio-heading{margin-bottom:64px}
+.portfolio-home .folio-method .folio-heading .folio-intro{color:#9fb5c0}
+.portfolio-home .folio-method-shell{display:grid;grid-template-columns:390px minmax(0,1fr);gap:65px;align-items:stretch}
+.portfolio-home .folio-steps{display:flex;flex-direction:column;border-top:1px solid #dbe9e834}
+.portfolio-home .folio-step{border:0;border-bottom:1px solid #dbe9e834;background:none;color:#aabfc7;text-align:left;display:flex;align-items:center;gap:20px;width:100%;padding:20px 4px;min-height:80px;cursor:pointer;transition:color .2s,padding-left .2s}
+.portfolio-home .folio-step:hover,.portfolio-home .folio-step[aria-selected="true"]{color:white;padding-left:12px}
+.portfolio-home .folio-step .step-n{font-family:Georgia,serif;font-size:12px;color:#96b6c2;flex:0 0 28px}
+.portfolio-home .folio-step .step-name{font-size:18px;font-family:"Songti SC","STSong","Noto Serif CJK SC",serif;letter-spacing:.03em}
+.portfolio-home .folio-step .step-arr{margin-left:auto;font-size:18px;opacity:0;transform:translateX(-5px);transition:all .2s}
+.portfolio-home .folio-step[aria-selected="true"] .step-arr,.portfolio-home .folio-step:hover .step-arr{opacity:1;transform:none}
+.portfolio-home .folio-stage{position:relative;min-height:430px;border:1px solid #d6e6e42a;background:linear-gradient(130deg,#2344558a,#122d3c66);display:grid;align-items:center;padding:64px 67px 70px;overflow:hidden}
+.portfolio-home .folio-stage:after{content:"";position:absolute;right:-165px;bottom:-210px;width:520px;height:520px;border:1px solid #c3e0df25;border-radius:50%;box-shadow:0 0 0 75px #c0e2de09,0 0 0 155px #c0e2de07}
+.portfolio-home .folio-stage-panel{position:relative;z-index:1;max-width:590px;animation:folioFade .4s ease both}
+.portfolio-home .folio-stage-panel[hidden]{display:none}
+.portfolio-home .folio-stage-index{display:block;font-family:Georgia,serif;color:#99c4cb;font-size:12px;letter-spacing:.13em;margin-bottom:45px}
+.portfolio-home .folio-stage-panel h3{font-family:"Songti SC","STSong","Noto Serif CJK SC",serif;font-size:clamp(29px,3vw,43px);line-height:1.45;letter-spacing:-.04em;font-weight:500;color:#f6f7f3}
+.portfolio-home .folio-stage-panel p{font-size:15px;color:#b9cdd3;margin-top:19px;line-height:2;max-width:460px}
+.portfolio-home .folio-stage-bottom{position:absolute;left:67px;right:67px;bottom:33px;display:flex;justify-content:space-between;align-items:center;color:#9eb9c0;font-family:Georgia,serif;font-size:11px;letter-spacing:.1em}
+.portfolio-home .folio-stage-bottom .folio-line{width:76px;height:1px;background:#ffffff59}
+.portfolio-home .folio-method-footer{display:flex;justify-content:space-between;margin-top:27px;font-size:11px;letter-spacing:.06em;color:#90aeb8}
+@keyframes folioFade{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+/* 04 — selected practice and writing */
+.portfolio-home .folio-practice{background:#fff}
+.portfolio-home .folio-practice-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:27px}
+.portfolio-home .folio-work-card{border:1px solid #d6e2e7;min-height:520px;overflow:hidden;position:relative;background:#f4f7f6;display:flex;flex-direction:column}
+.portfolio-home .folio-work-card .folio-work-art{height:310px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;background:radial-gradient(ellipse at 70% 10%,#c8dfdf,#eaf1ef 54%,#dae6e7)}
+.portfolio-home .folio-work-art:before{content:"";position:absolute;inset:15% 17%;border:1px solid #416e7b25;border-radius:50%;box-shadow:0 0 0 40px #618a8b0b,0 0 0 95px #618a8b07}
+.portfolio-home .folio-work-art svg{width:min(76%,440px);height:auto;filter:drop-shadow(0 16px 35px rgba(47,79,92,.12));position:relative;z-index:1}
+.portfolio-home .folio-work-info{padding:31px 35px 36px;display:flex;flex-direction:column;align-items:flex-start;gap:12px;flex:1}
+.portfolio-home .folio-work-info .folio-mini{font-size:10px;letter-spacing:.14em;color:#73919d}
+.portfolio-home .folio-work-info h3{font-family:"Songti SC","STSong","Noto Serif CJK SC",serif;font-size:27px;color:#203847;font-weight:550}
+.portfolio-home .folio-work-info p{font-size:13px;color:#708590;line-height:1.9}
+.portfolio-home .folio-work-info a{margin-top:auto}
+.portfolio-home .folio-notes{border-top:1px solid #d7e1e4}
+.portfolio-home .folio-note-link{display:flex;align-items:flex-start;gap:21px;padding:28px 0;border-bottom:1px solid #d7e1e4;transition:padding-left .25s}
+.portfolio-home .folio-note-link:hover{padding-left:9px}
+.portfolio-home .folio-note-link .folio-note-n{font-family:Georgia,serif;color:#75909f;font-size:11px;flex:0 0 24px;margin-top:6px}
+.portfolio-home .folio-note-link .folio-note-text{flex:1}
+.portfolio-home .folio-note-link .folio-note-text .folio-note-tag{color:#879aa4;font-size:10px;letter-spacing:.13em}
+.portfolio-home .folio-note-link .folio-note-text h3{font-family:"Songti SC","STSong","Noto Serif CJK SC",serif;font-size:24px;line-height:1.45;font-weight:500;margin-top:10px;color:#22394a}
+.portfolio-home .folio-note-link .folio-note-text p{font-size:12px;color:#899ba4;margin-top:10px}
+.portfolio-home .folio-note-link .folio-note-arrow{font-size:19px;color:#638397}
+.portfolio-home .folio-note-footer{margin-top:32px;display:flex;justify-content:space-between;align-items:center;color:#8da0a8;font-size:12px}
+/* 05 — about and personal identity */
+.portfolio-home .folio-about{background:#eef3f3}
+.portfolio-home .folio-about-grid{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(300px,.92fr);gap:9%;align-items:center}
+.portfolio-home .folio-about .folio-title{max-width:650px}
+.portfolio-home .folio-about-copy{font-size:15px;line-height:2.15;color:#597180;margin-top:30px;max-width:550px}
+.portfolio-home .folio-about-links{display:flex;flex-wrap:wrap;align-items:center;gap:22px 34px;margin-top:42px}
+.portfolio-home .folio-photo{position:relative;margin:0;overflow:hidden;aspect-ratio:5/5.4;background:#b1c7d5}
+.portfolio-home .folio-photo img{width:100%;height:100%;object-fit:cover;object-position:center 51%;transition:transform .8s cubic-bezier(.2,.7,.2,1)}
+.portfolio-home .folio-photo:hover img{transform:scale(1.04)}
+.portfolio-home .folio-photo figcaption{position:absolute;bottom:0;left:0;right:0;color:white;padding:35px 30px 24px;background:linear-gradient(transparent,#09233690);font-family:Georgia,serif;font-size:11px;letter-spacing:.12em}
+.portfolio-home .folio-epilogue{border-top:1px solid #bfd0d6;margin-top:85px;padding-top:22px;display:flex;justify-content:space-between;font-family:Georgia,"Songti SC",serif;letter-spacing:.13em;color:#748f99;font-size:11px}
+/* responsive */
+@media(max-width:1050px){
+.page-home.portfolio-home .shell,.page-home.portfolio-home .site-head .shell{width:calc(100% - 72px)}
+.portfolio-home .folio-method-shell{grid-template-columns:300px 1fr;gap:30px}
+.portfolio-home .folio-stage{padding:46px}
+.portfolio-home .folio-stage-bottom{left:46px;right:46px}
+.portfolio-home .folio-focus-item{padding-right:23px}
+.portfolio-home .folio-focus-item + .folio-focus-item{padding-left:23px}
+}
+@media(max-width:760px){
+.page-home.portfolio-home .shell,.page-home.portfolio-home .site-head .shell{width:calc(100% - 42px)}
+.page-home.portfolio-home .hero-cinematic{min-height:760px}
+.page-home.portfolio-home .hero-cinematic:before{background:linear-gradient(90deg,rgba(8,25,40,.48),rgba(8,25,40,.20) 68%,transparent)}
+.page-home.portfolio-home .hero-cinematic .hero-photo{inset:0}
+.page-home.portfolio-home .hero-cinematic .hero-photo img{object-position:43% center}
+.page-home.portfolio-home .hero-cinematic .hero-grid{min-height:760px;padding:95px 0 125px}
+.page-home.portfolio-home .hero-cinematic .hero-copy h1{font-size:clamp(43px,7.8vw,62px);line-height:1.36}
+.page-home.portfolio-home .hero-cinematic .hero-copy p{font-size:15px;line-height:2;max-width:560px}
+.portfolio-home .folio-hero-aside{bottom:23px}
+.portfolio-home .folio-section{padding:86px 0}
+.portfolio-home .folio-heading{display:block;margin-bottom:42px}
+.portfolio-home .folio-heading .folio-intro{max-width:480px;margin-top:18px}
+.portfolio-home .folio-title{font-size:clamp(39px,6.7vw,57px)}
+.portfolio-home .folio-focus-grid{grid-template-columns:1fr}
+.portfolio-home .folio-focus-item,.portfolio-home .folio-focus-item + .folio-focus-item{padding:22px 0 30px;border-left:0;min-height:210px}
+.portfolio-home .folio-focus-item .folio-focus-icon{margin-top:25px;margin-bottom:15px}
+.portfolio-home .folio-focus-foot{font-size:10px}
+.portfolio-home .folio-method-shell{grid-template-columns:1fr;gap:24px}
+.portfolio-home .folio-steps{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));overflow-x:auto}
+.portfolio-home .folio-step{min-height:95px;flex-direction:column;align-items:flex-start;gap:5px;padding:15px 8px;justify-content:center}
+.portfolio-home .folio-step:hover,.portfolio-home .folio-step[aria-selected="true"]{padding-left:8px}
+.portfolio-home .folio-step .step-name{font-size:13px;white-space:nowrap}
+.portfolio-home .folio-step .step-arr{display:none}
+.portfolio-home .folio-stage{min-height:355px}
+.portfolio-home .folio-practice-grid,.portfolio-home .folio-about-grid{grid-template-columns:1fr}
+.portfolio-home .folio-photo{max-width:560px;aspect-ratio:1.14}
+.portfolio-home .folio-about-grid{gap:55px}
+}
+@media(max-width:480px){
+.page-home.portfolio-home .shell,.page-home.portfolio-home .site-head .shell{width:calc(100% - 34px)}
+.page-home.portfolio-home .hero-cinematic{min-height:690px}
+.page-home.portfolio-home .hero-cinematic .hero-grid{min-height:690px;padding:106px 0 105px}
+.page-home.portfolio-home .hero-cinematic .hero-copy h1{font-size:clamp(38px,10vw,48px);letter-spacing:-.06em}
+.page-home.portfolio-home .hero-cinematic .eyebrow{font-size:9px;letter-spacing:.11em}
+.page-home.portfolio-home .hero-cinematic .hero-copy p{font-size:13px;line-height:1.97}
+.page-home.portfolio-home .hero-cinematic .hero-actions .btn.primary{font-size:13px;min-height:48px;min-width:167px;padding:12px 17px}
+.portfolio-home .folio-hero-aside .shell span:first-child{display:none}
+.portfolio-home .folio-hero-aside .shell{justify-content:flex-end}
+.portfolio-home .folio-section{padding:73px 0}
+.portfolio-home .folio-title{font-size:36px}
+.portfolio-home .folio-focus-item h3{font-size:26px}
+.portfolio-home .folio-stage{min-height:350px;padding:28px 25px 70px}
+.portfolio-home .folio-stage-panel h3{font-size:30px}
+.portfolio-home .folio-stage-bottom{left:25px;right:25px;bottom:20px}
+.portfolio-home .folio-stage-index{margin-bottom:30px}
+.portfolio-home .folio-steps{gap:0}
+.portfolio-home .folio-step .step-name{font-size:11px}
+.portfolio-home .folio-work-card .folio-work-art{height:235px}
+.portfolio-home .folio-work-info{padding:25px}
+.portfolio-home .folio-note-link .folio-note-text h3{font-size:20px}
+.portfolio-home .folio-about-links{gap:20px}
+.portfolio-home .folio-epilogue{margin-top:57px}
+}
+@media(prefers-reduced-motion:reduce){.portfolio-home .folio-stage-panel{animation:none}.portfolio-home .folio-photo img{transition:none}}
