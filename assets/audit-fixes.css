@@ -1,0 +1,227 @@
+/* 全站诊断整改 / 2026-10-23 — scoped, non-destructive additions */
+
+/* P0: real horizontal containment on 360/390px, not masking overflow on body. */
+.article-page main,.article-page article,.article-page .article-container{min-width:0;max-width:100%}
+.article-page .article-copy,.article-page .article-aside,
+.article-page .article-hero .shell,.article-page .article-related .shell{
+  min-width:0;
+}
+.article-page .article-copy .table-wrap{
+  display:block;
+  width:100%;
+  max-width:100%;
+  min-width:0;
+  overflow-x:auto;
+  -webkit-overflow-scrolling:touch;
+  overscroll-behavior-x:contain;
+  scrollbar-width:thin;
+  scrollbar-color:#a2bdc7 transparent;
+}
+.article-page .article-copy table{
+  table-layout:auto;
+  border-collapse:collapse;
+}
+.article-page .article-copy th,.article-page .article-copy td{
+  white-space:normal;
+  overflow-wrap:break-word;
+}
+.article-page .article-breadcrumb{min-width:0;overflow-wrap:anywhere}
+.article-page .article-hero h1{overflow-wrap:anywhere}
+.article-page .article-aside nav{min-width:0;max-width:100%}
+.article-page .article-aside a{overflow-wrap:break-word}
+@media(max-width:760px){
+ .article-page .article-container{
+   display:flex;flex-direction:column;
+   width:calc(100% - 40px);
+   max-width:100%;
+   min-width:0;
+   gap:32px;
+ }
+ .article-page .article-container>.article-copy,
+ .article-page .article-container>.article-aside{
+   flex:none;
+   display:block;
+   width:100%;max-width:100%;min-width:0;
+ }
+ .article-page .article-aside{
+   overflow:hidden;
+   position:static;
+ }
+ .article-page .article-aside nav{
+   display:flex;
+   max-width:100%;width:100%;min-width:0;
+   overflow-x:auto;overflow-y:hidden;
+   white-space:nowrap;
+   -webkit-overflow-scrolling:touch;
+   scrollbar-width:thin;
+ }
+ .article-page .article-aside nav a{flex:0 0 auto}
+ .article-page .article-copy .table-wrap{overflow-x:auto}
+ .article-page .article-copy table{
+   width:100%;
+   min-width:460px; /* wider table scrolls inside .table-wrap, not the page */
+ }
+ .article-page .article-copy th,.article-page .article-copy td{
+   min-width:95px;
+   padding:11px 12px;
+   font-size:13px;
+ }
+ .article-page .article-copy .article-note,
+ .article-page .article-copy .article-summary{max-width:100%;min-width:0}
+}
+@media(max-width:480px){
+ .article-page .article-copy .table-wrap{
+   border:1px solid #dee9ec;
+   border-radius:3px;
+ }
+ .article-page .article-breadcrumb{gap:7px}
+}
+
+/* Increase secondary copy contrast; keep decorative English tags restrained. */
+.article-page .article-related-grid p,
+.article-page .article-disclaimer,
+.resources-page .resource-article-card p,
+.resources-page .resource-article-card .card-foot,
+.article-page .article-aside .aside-label{
+  color:#526d7b!important;
+}
+.article-page .article-related-grid span,
+.resources-page .resource-article-count,
+.article-page .article-byline{
+  color:#536f7e;
+}
+
+/* Homepage: existing hero line and photo stay unchanged. */
+.portfolio-home .hero-cinematic .hero-identity{
+  display:block;
+  max-width:720px;
+  margin:23px 0 0;
+  padding-left:15px;
+  border-left:2px solid rgba(238,248,246,.78);
+  color:#f7f9f5;
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;
+  font-size:14px;
+  line-height:1.65;
+  letter-spacing:.05em;
+  text-shadow:0 1px 10px rgba(9,34,44,.15);
+}
+.portfolio-home .hero-cinematic .hero-subactions{
+  display:flex;align-items:center;gap:27px;
+  flex-wrap:wrap;
+  margin-top:19px;
+}
+.portfolio-home .hero-cinematic .hero-subactions a{
+  display:inline-flex;align-items:center;gap:7px;
+  font-size:13px;color:#f8fcfc;
+  padding:4px 0;
+  border-bottom:1px solid rgba(251,252,249,.6);
+  transition:gap .25s ease,border-color .25s ease;
+}
+.portfolio-home .hero-cinematic .hero-subactions a:hover{
+  gap:13px;border-color:#fff;
+}
+@media(max-width:600px){
+ .portfolio-home .hero-cinematic .hero-identity{
+   font-size:12px;
+   margin-top:17px;
+   letter-spacing:.015em;
+ }
+ .portfolio-home .hero-cinematic .hero-subactions{
+   gap:17px;margin-top:13px
+ }
+ .portfolio-home .hero-cinematic .hero-subactions a{font-size:12px}
+}
+
+/* Personal experience: truthfully state capabilities, not invented tenure/results. */
+.page-experience .story-services{
+  margin:27px 0 0 40px;
+  padding:24px 0 0;
+  border-top:1px solid #cedce2;
+}
+.page-experience .story-services .service-label{
+  font-size:11px;letter-spacing:.12em;color:#517487;
+  margin-bottom:12px;
+}
+.page-experience .story-services p{
+  color:#536d7c;font-size:13px;line-height:2.05;
+}
+@media(max-width:480px){
+ .page-experience .story-services{margin-left:29px}
+}
+
+/* Contact: practical communication brief in the existing second section. */
+.contact-page .contact-brief{
+  border-top:1px solid #cfdde3;
+  padding-top:22px;
+  margin-top:27px;
+  max-width:640px;
+}
+.contact-page .contact-brief h2{
+  margin:0 0 12px;
+  font-family:"Songti SC","STSong",serif;
+  font-size:23px;font-weight:550;color:#294a5b;
+  letter-spacing:-.02em;
+}
+.contact-page .contact-brief p{
+  color:#4d6c7c;line-height:1.95;
+  font-size:13px;margin:0 0 10px;
+}
+.contact-page .contact-brief strong{color:#2c4b5b;font-weight:620}
+
+/* Resource hub filter: interactive enhancement with complete links in source. */
+.resources-page .resource-topic-filter{
+  display:flex;flex-wrap:wrap;
+  gap:9px;
+  margin:3px 0 30px;
+}
+.resources-page .resource-topic-filter[hidden]{display:none!important}
+.resources-page .resource-topic-filter button{
+  appearance:none;background:#fff;border:1px solid #d3e0e6;
+  color:#456373;padding:9px 15px;
+  border-radius:2px;font-size:12px;
+  transition:background .2s,color .2s,border-color .2s;
+}
+.resources-page .resource-topic-filter button:hover{
+  border-color:#7197a8;color:#23475b;
+}
+.resources-page .resource-topic-filter button[aria-pressed="true"]{
+  background:#31576c;color:#fff;border-color:#31576c;
+}
+.resources-page .resource-article-card[hidden]{display:none!important}
+
+/* Lightweight, semantic process graphic using existing article headings. */
+.article-page .article-roadmap{
+  padding:28px 25px 27px;
+  margin:34px 0 28px;
+  background:#f2f6f7;
+  border:1px solid #deeaed;
+}
+.article-page .article-roadmap .roadmap-label{
+  font-size:11px;letter-spacing:.12em;color:#4a7184;margin-bottom:17px;
+}
+.article-page .article-roadmap ol{
+  list-style:none;
+  padding:0;margin:0;
+  display:grid;grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:11px;
+}
+.article-page .article-roadmap li{
+  display:flex;align-items:baseline;gap:13px;
+  background:rgba(255,255,255,.88);
+  padding:12px 15px;margin:0;
+  font-size:13px;line-height:1.8;
+  color:#456270;
+  overflow-wrap:anywhere;
+}
+.article-page .article-roadmap li span{
+  color:#668999;font:13px Georgia,serif;
+  flex:0 0 21px;
+}
+@media(max-width:480px){
+ .article-page .article-roadmap{padding:19px 15px}
+ .article-page .article-roadmap ol{grid-template-columns:1fr}
+}
+@media(prefers-reduced-motion:reduce){
+ .portfolio-home .hero-cinematic .hero-subactions a,
+ .resources-page .resource-topic-filter button{transition:none!important}
+}
