@@ -459,3 +459,50 @@ html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition
 .gallery-all svg{width:11px;height:8px;transition:transform .2s}
 .gallery-all[aria-expanded="true"] svg{transform:rotate(180deg)}
 @media(max-width:600px){.gallery-actions{padding:8px 0 52px}.gallery-all{min-height:46px;font-size:12px}}
+
+
+/* Touch-safe personal navigation (mobile Safari / Android) */
+.site-head{overflow:visible;isolation:auto}
+.site-head .shell{overflow:visible}
+.site-nav .nav-about{position:relative;z-index:2}
+.site-nav .nav-about-toggle{touch-action:manipulation;-webkit-tap-highlight-color:rgba(52,91,113,.08);user-select:none}
+.site-nav .nav-about-menu{
+  z-index:110;
+  pointer-events:auto;
+  visibility:visible;
+  overflow:visible;
+  right:0;
+  top:calc(100% + 10px);
+}
+.site-nav .nav-about:not([open]) .nav-about-menu{display:none}
+.site-nav .nav-about[open] .nav-about-menu{display:block}
+.site-nav .nav-about-menu a{
+  position:relative;
+  display:block;
+  min-height:61px;
+  touch-action:manipulation;
+  -webkit-tap-highlight-color:rgba(52,91,113,.1);
+}
+.site-nav .nav-about-menu a:active,
+.site-nav .nav-about-menu a:focus-visible{background:#edf4f7}
+@media(max-width:760px){
+  .site-head{z-index:200}
+  .site-nav .nav-about{z-index:201}
+  .site-nav .nav-about-menu{
+    top:calc(100% + 6px);
+    right:0;
+    left:auto;
+    width:min(286px,calc(100vw - 28px));
+    max-width:calc(100vw - 28px);
+    padding:8px;
+    box-shadow:0 18px 46px rgba(19,44,63,.18);
+  }
+  .site-nav .nav-about-menu a{padding:15px 18px;min-height:68px}
+}
+@media(max-width:480px){
+  .site-nav .nav-about-menu{
+    width:min(276px,calc(100vw - 28px));
+    right:0;
+  }
+  .site-nav .nav-about-menu a{padding:15px 16px}
+}
