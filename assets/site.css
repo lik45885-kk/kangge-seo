@@ -311,8 +311,8 @@ html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition
 .contact-number{border:0;padding:0;background:none;color:#193344;font-size:clamp(32px,3.4vw,48px);font-weight:650;letter-spacing:-.035em;line-height:1.3;white-space:nowrap;font-variant-numeric:tabular-nums;cursor:pointer;text-align:left}
 .contact-number:hover{color:#40687c}
 .contact-phone-only .contact-wechat-note{margin:0;color:#708595;font-size:15px;line-height:1.5}
-.contact-sea{position:relative;height:480px;margin:0;overflow:hidden;border-radius:20px;background:#87a6b8;isolation:isolate}
-.contact-sea img{display:block;width:100%;height:100%;max-width:none;object-fit:cover;object-position:50% 0;transform:scale(3.2);transform-origin:50% 12%}
-@media(max-width:960px){.contact-simple{gap:42px}.contact-sea{height:430px}}
-@media(max-width:760px){.contact-simple{grid-template-columns:1fr;gap:32px;padding:60px 0 76px}.contact-number{font-size:38px}.contact-sea{height:360px}}
-@media(max-width:480px){.contact-number{font-size:32px}.contact-phone-only{gap:12px}.contact-phone-only .contact-wechat-note{font-size:14px}.contact-sea{height:300px;border-radius:16px}}
+.contact-sea{position:relative;aspect-ratio:1448/1086;height:auto;margin:0;overflow:hidden;border-radius:20px;background:#87a6b8;isolation:isolate}
+.contact-sea img{display:block;width:100%;height:100%;max-width:none;object-fit:cover;object-position:center}
+@media(max-width:960px){.contact-simple{gap:42px}}
+@media(max-width:760px){.contact-simple{grid-template-columns:1fr;gap:32px;padding:60px 0 76px}.contact-number{font-size:38px}}
+@media(max-width:480px){.contact-number{font-size:32px}.contact-phone-only{gap:12px}.contact-phone-only .contact-wechat-note{font-size:14px}.contact-sea{border-radius:16px}}
