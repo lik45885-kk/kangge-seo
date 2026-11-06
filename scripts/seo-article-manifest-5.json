@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "search-query-negative-conflict",
+    "title": "否词后核心业务词展现也下降，怎么查误伤？",
+    "description": "否词后核心业务词展现也下降，怎么查误伤。否定关键词加得越多不一定越精准。如果否词范围覆盖了有效长尾表达，相关需求可能一起丢失。"
+  },
+  {
+    "slug": "search-term-analysis",
+    "title": "百度推广搜索词报告怎么分析？从搜索意图到优化动作",
+    "description": "百度推广搜索词报告如何分析？介绍搜索意图分类、数据口径检查、加词否词判断以及落地页承接的完整优化流程。"
+  },
+  {
+    "slug": "search-term-tagging-sheet",
+    "title": "搜索词报告怎么做意图标签表？给一套可复盘的字段",
+    "description": "分类表真正有用的地方，是下一周你还能看懂为什么加词、为什么否词，而不是只把每个搜索词涂成红绿两色。"
+  },
+  {
+    "slug": "search-terms-and-keywords-gap",
+    "title": "投了精确业务词，为什么搜索词报告还是出现意外查询？",
+    "description": "投了精确业务词，为什么搜索词报告还是出现意外查询。关键词表是计划，搜索词报告才是实际购买的需求。两者不完全一致并不稀奇。"
+  },
+  {
+    "slug": "sem-budget-runs-out-at-noon",
+    "title": "百度推广预算中午就花完了，要不要马上加钱？",
+    "description": "预算中午用完可能是投放集中，也可能是无关查询扩大。加钱之前先确认早间花掉的预算是否值得继续买。"
+  },
+  {
+    "slug": "sem-new-account-first-week",
+    "title": "百度推广新账户上线第一周，先检查这八个地方",
+    "description": "新账户上线后最容易犯的错，是立刻盯转化成本，却忘了广告是否正常展示、页面能否提交、实际搜索词是否符合业务。"
+  },
+  {
+    "slug": "sem-seo-search-intent-collaboration",
+    "title": "SEM 搜索词报告能不能反过来指导 SEO 文章选题？",
+    "description": "如何利用百度推广搜索词报告指导 SEO 内容选题？从用户意图、知识词与采购词分流，到独特价值和发布后复盘，建立 SEM 与 SEO 的反馈闭环。"
+  },
+  {
+    "slug": "sem-weekly-report",
+    "title": "百度推广周报怎么写？从指标变化到优化动作",
+    "description": "百度推广 SEM 周报怎么写？提供展现、点击、CTR、CPC、消费、表单、有效线索及成本的对比框架，并把变化转化为优化建议。"
+  },
+  {
+    "slug": "when-to-switch-ocpc",
+    "title": "百度推广什么时候适合从CPC转oCPC？",
+    "description": "切换智能出价前，最重要的不是账户上线多久，而是是否有可信的转化信号和可评估的业务目标。"
+  },
+  {
+    "slug": "zero-lead-landing-debug",
+    "title": "百度推广连续两天零表单，如何判断是流量还是页面问题？",
+    "description": "连续零表单常让运营第一时间怀疑排名或预算，但更快的办法是先排除表单故障，再按设备、品牌词与业务词拆流量。"
+  }
+]
