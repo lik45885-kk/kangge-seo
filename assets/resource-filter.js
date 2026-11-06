@@ -12,6 +12,7 @@ function show(value){
     card.hidden=!visible;
     if(visible)count++;
   }
+  for(const section of document.querySelectorAll("[data-archive-group]"))section.hidden=value!=="all"&&section.dataset.archiveGroup!==value;
   for(const button of controls)button.setAttribute("aria-pressed",String(button.dataset.filter===value));
   const status=bar.querySelector("[data-filter-status]");
   if(status)status.textContent="当前显示 "+count+" 篇文章";

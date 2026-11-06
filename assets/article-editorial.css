@@ -108,3 +108,21 @@
 @media(prefers-reduced-motion:reduce){
  .resources-page .resource-article-card,.article-page .article-related-grid a{transition:none}
 }
+
+/* 2026 Field Notes archive */
+.resources-page .resource-expanded{background:#f7f9fa;border-top:1px solid #dce6e9;padding-top:90px}
+.resources-page .resource-topic-section{margin:0 0 82px}
+.resources-page .resource-topic-section[hidden]{display:none!important}
+.resources-page .resource-topic-head{display:flex;align-items:end;justify-content:space-between;gap:28px;padding:18px 0 24px;border-top:1px solid #bfd1d9}
+.resources-page .resource-topic-head h3{font:550 clamp(26px,3vw,38px)/1.35 "Songti SC","STSong",serif;color:#234254}
+.resources-page .resource-topic-head p{font-size:13px;line-height:1.8;color:#678292;margin-top:9px}
+.resources-page .resource-topic-head>span{font:12px Georgia,serif;color:#65859a;white-space:nowrap}
+.resources-page .resource-expanded .resource-article-grid{border-top:0}
+.resources-page .resource-expanded .resource-article-card{min-width:0}
+@media(max-width:760px){
+ .resources-page .resource-expanded{padding-top:60px}
+ .resources-page .resource-topic-section{margin-bottom:58px}
+ .resources-page .resource-topic-head{align-items:start;gap:16px}
+ .resources-page .resource-topic-head h3{font-size:30px}
+ .resources-page .resource-topic-head p{font-size:12px}
+}
