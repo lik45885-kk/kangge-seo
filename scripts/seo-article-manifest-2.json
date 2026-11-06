@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "choosing-sem-agency",
+    "title": "企业如何选择百度推广代运营？先问清这六件事",
+    "description": "企业选择百度推广代运营时应该问哪些问题？从账户权限、目标定义、搜索词透明度、线索质量、页面责任和协作方式六方面评估。"
+  },
+  {
+    "slug": "competitor-keyword-policy",
+    "title": "百度推广竞品词值得投吗？先算清意图和风险",
+    "description": "用户搜索竞品名称时，有时想直接进入对方官网，有时在比较替代方案。两种需求不能用相同广告表达承接。"
+  },
+  {
+    "slug": "competitor-query-ethics",
+    "title": "B2B 竞品关键词要不要投？先判断替代需求",
+    "description": "B2B 竞品关键词要不要投先判断替代需求。竞品词不是简单的高意图流量，也涉及品牌表达、相关性和预算风险。"
+  },
+  {
+    "slug": "conversion-goal-misconfigured",
+    "title": "百度推广转化目标设置错了，会怎么影响优化？",
+    "description": "转化目标不是后台里随便勾选的统计项，它决定运营者如何解释结果，也可能影响自动出价信号。"
+  },
+  {
+    "slug": "cpc-enhanced-mode",
+    "title": "百度推广CPC增强模式怎么评估？别只看点击单价",
+    "description": "开启出价增强模式以后，可能改变流量的竞价表现。不要只通过总体 CPC 判断它好坏，要先确认哪些计划、词类和转化信号在发生变化。"
+  },
+  {
+    "slug": "cpc-ocpc-transition",
+    "title": "从 CPC 转到 oCPC，什么时候更合适？",
+    "description": "从 CPC 转到 oCPC，什么时候更合适。自动出价需要可依赖的转化信号。数据还没对齐就切策略，可能放大前端表单质量问题。"
+  },
+  {
+    "slug": "creative-automation-review",
+    "title": "自动创意上线后，SEM 运营还需要审核什么？",
+    "description": "自动创意上线后，SEM 运营还需要审核什么。自动组合文案能节省制作时间，但不能替代品牌事实核查和用户意图判断。"
+  },
+  {
+    "slug": "cta-placement-b2b",
+    "title": "B2B落地页每一屏都要CTA吗？判断按钮位置的三个依据",
+    "description": "按钮多不等于线索多。CTA位置取决于用户理解业务所需的信息量、页面长度以及主任务是否明确。"
+  },
+  {
+    "slug": "ctr-up-no-leads",
+    "title": "CTR上升了，表单为什么没有增加？",
+    "description": "广告更容易被点不一定意味着用户更愿意咨询。先判断新增点击来自什么需求，再看着陆页和表单路径。"
+  },
+  {
+    "slug": "customer-logo-trust",
+    "title": "客户Logo墙放在哪里更可信？别把品牌背书当装饰",
+    "description": "Logo墙可以帮助建立信任，但前提是授权真实、关联关系明确，并且放在用户开始关心可信度的位置。"
+  },
+  {
+    "slug": "desktop-landing-hero",
+    "title": "PC端B2B落地页首屏设计：信息层级比大图更重要",
+    "description": "PC端有更充足的横向空间，但并不意味着要把所有卖点、Logo和案例塞进首屏。"
+  },
+  {
+    "slug": "desktop-mobile-split",
+    "title": "PC 和移动端数据差异大，要不要拆计划？",
+    "description": "PC 和移动端数据差异大，要不要拆计划。拆分设备的目标是让不同流量能被独立管理，不是为了让账户结构更复杂。"
+  }
+]
