@@ -1,0 +1,26 @@
+name: Notify IndexNow after Pages publication
+
+on:
+  workflow_run:
+    workflows: ["pages build and deployment"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  notify:
+    if: ${{ github.event_name == 'workflow_dispatch' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.head_branch == 'main') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 7
+    steps:
+      - name: Check out published sources
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 2
+      - name: Notify IndexNow of canonical URLs
+        env:
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
+        run: python3 scripts/submit_indexnow.py
