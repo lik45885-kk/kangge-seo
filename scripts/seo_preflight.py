@@ -72,7 +72,7 @@ for pagepath in [ROOT / "index.html", ROOT / "resources" / "index.html", *articl
     if pagepath in articles:
         cleaned = re.sub(r"<script[^>]*>.*?</script>|<style[^>]*>.*?</style>", "", raw, flags=re.S)
         cleaned = re.sub(r"<[^>]+>", " ", cleaned)
-        cleaned = re.sub(r"\\s+", " ", cleaned)
+        cleaned = re.sub(r"\s+", " ", cleaned)
         if len(cleaned) < 600:
             warnings.append(f"{rel}: low visible-text length; editorial review needed ({len(cleaned)})")
     for href in parser.links:
@@ -82,7 +82,7 @@ for pagepath in [ROOT / "index.html", ROOT / "resources" / "index.html", *articl
             if target and not (ROOT / target).is_file():
                 warnings.append(f"{rel}: possible broken same-site link {href}")
 index = (ROOT / "resources/index.html").read_text(encoding="utf-8")
-cards = re.findall(r'class="resource-article-card"[^>]*href="\\./([^/]+)/', index)
+cards = re.findall(r'class="resource-article-card"[^>]*href="\./([^/]+)/', index)
 check(len(cards) == 100 and len(set(cards)) == 100, f"Resource center card mismatch: {len(cards)}")
 check({p.parent.name for p in articles} == set(cards), "Resource cards do not exactly match article paths")
 robotstxt = (ROOT / "robots.txt").read_text(encoding="utf-8")
