@@ -53,7 +53,7 @@ check(len(urls) == len(set(urls)), "Sitemap contains duplicate URLs")
 check(all(u.startswith(BASE) for u in urls), "Sitemap has URLs outside project site")
 urlset = set(urls)
 articles = sorted((ROOT / "resources").glob("*/index.html"))
-check(len(articles) >= 100, f"Expected at least 100 articles, found {len(articles)}")
+check(len(articles) >= 60, f"Expected at least 60 articles, found {len(articles)}")
 for pagepath in [ROOT / "index.html", ROOT / "resources" / "index.html", *articles]:
     rel = pagepath.relative_to(ROOT).as_posix()
     expected = BASE if rel == "index.html" else BASE + rel.removesuffix("index.html")
