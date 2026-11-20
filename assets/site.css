@@ -541,3 +541,5 @@ html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition
 .faq-item p{margin:0;font-size:15px;line-height:1.75}
 .mistake-section{margin-top:26px}
 .mistake-section ol li{margin-bottom:8px}
+
+.byline-updated{color:#20394a;font-weight:600}
