@@ -543,3 +543,14 @@ html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition
 .mistake-section ol li{margin-bottom:8px}
 
 .byline-updated{color:#20394a;font-weight:600}
+
+.home-index-section{padding:64px 0;border-top:1px solid #dce5e9;background:#fffaf2}
+.home-index-section .kicker{display:block;font-size:12px;letter-spacing:.14em;color:#6b7f8c;margin-bottom:12px}
+.home-index-section h2{font-size:26px;margin:0 0 14px;color:#20394a}
+.home-index-section p{max-width:760px;line-height:1.85;font-size:15.5px;color:#3f5563;margin:0 0 12px}
+.home-index-links{list-style:none;padding:0;margin:22px 0 12px;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:10px 26px}
+.home-index-links li a{display:block;padding:11px 0;border-bottom:1px solid #dce5e9;color:#20394a;font-size:15px;text-decoration:none}
+.home-index-links li a:hover{border-bottom-color:#20394a}
+.home-index-note{font-size:14px;color:#6b7f8c}
+.home-index-note a{color:#20394a;text-decoration:underline}
+@media(max-width:640px){.home-index-section{padding:44px 0}.home-index-links{grid-template-columns:1fr}}
