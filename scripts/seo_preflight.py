@@ -52,8 +52,29 @@ except Exception as e:
 check(len(urls) == len(set(urls)), "Sitemap contains duplicate URLs")
 check(all(u.startswith(BASE) for u in urls), "Sitemap has URLs outside project site")
 urlset = set(urls)
-articles = sorted((ROOT / "resources").glob("*/index.html"))
+all_pages = sorted((ROOT / "resources").glob("*/index.html"))
+
+def is_stub(pagepath):
+    raw = pagepath.read_text(encoding="utf-8")
+    rel = pagepath.relative_to(ROOT).as_posix()
+    expected = BASE + rel.removesuffix("index.html")
+    parser = Page()
+    parser.feed(raw)
+    return bool(parser.canonical and parser.canonical != [expected])
+
+stubs = [p for p in all_pages if is_stub(p)]
+articles = [p for p in all_pages if p not in stubs]
 check(len(articles) >= 60, f"Expected at least 60 articles, found {len(articles)}")
+for pagepath in stubs:
+    raw = pagepath.read_text(encoding="utf-8")
+    parser = Page()
+    parser.feed(raw)
+    rel = pagepath.relative_to(ROOT).as_posix()
+    target = parser.canonical[0] if parser.canonical else ""
+    robots = " ".join(parser.meta.get("robots", [])).lower()
+    check(target in urlset, f"{rel}: consolidated stub canonical not in sitemap: {target}")
+    check("noindex" in robots, f"{rel}: consolidated stub missing noindex")
+    check(bool("".join(parser.h1).strip()), f"{rel}: consolidated stub has no h1")
 for pagepath in [ROOT / "index.html", ROOT / "resources" / "index.html", *articles]:
     rel = pagepath.relative_to(ROOT).as_posix()
     expected = BASE if rel == "index.html" else BASE + rel.removesuffix("index.html")
@@ -87,7 +108,7 @@ check(len(cards) == len(articles) and len(set(cards)) == len(cards), f"Resource 
 check({p.parent.name for p in articles} == set(cards), "Resource cards do not exactly match article paths")
 robotstxt = (ROOT / "robots.txt").read_text(encoding="utf-8")
 check("Disallow: /" not in robotstxt, "robots.txt blocks all pages")
-print(f"SEO preflight: {len(articles)} articles / {len(cards)} cards / {len(urls)} sitemap URLs")
+print(f"SEO preflight: {len(articles)} articles / {len(cards)} cards / {len(urls)} sitemap URLs / {len(stubs)} consolidated stubs")
 for item in warnings[:30]: print("WARN:", item)
 for item in errors: print("ERROR:", item)
 sys.exit(1 if errors else 0)
