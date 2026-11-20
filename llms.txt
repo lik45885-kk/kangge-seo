@@ -1,0 +1,19 @@
+# 李康的 SEM 实践站
+
+> B2B 搜索营销与百度推广账户优化的公开笔记，记录可验证的实操方法，不编造客户数据。
+
+## 站点定位
+面向 B2B 企业的搜索营销从业者，内容覆盖百度推广账户搭建、搜索词分析、关键词分层、CPC 与预算诊断、落地页与表单转化、线索质量判断、Bing 投放与 SEO 索引问题。
+
+## 核心页面
+- [首页](https://lik45885-kk.github.io/kangge-seo/): 站点说明与主题入口
+- [全部方法笔记](https://lik45885-kk.github.io/kangge-seo/resources/): 31 篇主题长文索引
+- [百度推广新账户怎么搭建？B2B 从 0 到 1](https://lik45885-kk.github.io/kangge-seo/resources/account-structure/)
+- [百度推广搜索词报告怎么分析？](https://lik45885-kk.github.io/kangge-seo/resources/search-term-analysis/)
+- [百度推广 CPC 过高怎么排查？](https://lik45885-kk.github.io/kangge-seo/resources/high-cpc/)
+- [B2B 百度推广落地页怎么优化转化？](https://lik45885-kk.github.io/kangge-seo/resources/b2b-landing-page/)
+- [百度推广线索多但质量差？](https://lik45885-kk.github.io/kangge-seo/resources/lead-quality/)
+- [Bing 做 B2B 获客怎么投放？](https://lik45885-kk.github.io/kangge-seo/resources/bing-b2b-sem/)
+
+## 作者
+李康，事橙营销广告运营部，SEM 运营，杭州。联系方式：likang@shichengup.com
