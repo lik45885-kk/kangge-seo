@@ -1,0 +1,16 @@
+{
+  "name": "李康的SEM实践站",
+  "short_name": "李康SEM",
+  "description": "B2B百度推广与SEM运营的实操方法、检查清单与案例复盘",
+  "lang": "zh-CN",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#20394a",
+  "icons": [
+    {"src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png"},
+    {"src": "assets/k-mark.svg", "sizes": "any", "type": "image/svg+xml"}
+  ]
+}
