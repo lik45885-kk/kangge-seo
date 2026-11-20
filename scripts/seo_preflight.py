@@ -64,7 +64,7 @@ def is_stub(pagepath):
 
 stubs = [p for p in all_pages if is_stub(p)]
 articles = [p for p in all_pages if p not in stubs]
-check(len(articles) >= 60, f"Expected at least 60 articles, found {len(articles)}")
+check(len(articles) >= 30, f"Expected at least 30 articles, found {len(articles)}")
 for pagepath in stubs:
     raw = pagepath.read_text(encoding="utf-8")
     parser = Page()

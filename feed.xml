@@ -5,490 +5,224 @@
 <link>https://lik45885-kk.github.io/kangge-seo/</link>
 <description>百度推广、B2B 搜索营销与获客的实操方法与复盘记录。</description>
 <language>zh-CN</language>
-<lastBuildDate>Fri, 20 Nov 2026 02:00:00 +0800</lastBuildDate>
+<lastBuildDate>Fri, 20 Nov 2026 10:00:00 +0800</lastBuildDate>
 <atom:link href="https://lik45885-kk.github.io/kangge-seo/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
 <title>旧SEM账户重构怎么降低波动？先保留可复盘基线</title>
 <link>https://lik45885-kk.github.io/kangge-seo/resources/account-rebuild-migration/</link>
 <guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/account-rebuild-migration/</guid>
 <description>重构账户时最大的风险不是结构不够整齐，而是失去可比较的投放基线。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
+<pubDate>Fri, 20 Nov 2026 10:00:00 +0800</pubDate>
 </item>
 <item>
 <title>百度推广新账户怎么搭建？B2B 从 0 到 1</title>
 <link>https://lik45885-kk.github.io/kangge-seo/resources/account-structure/</link>
 <guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/account-structure/</guid>
 <description>B2B 企业百度推广新账户从零搭建方法：先梳理产品与目标，再划分品牌词、业务词、行业词和认知词，设计关键词、创意及落地页承接。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
-</item>
-<item>
-<title>百度广告创意AB测试怎么做，才能知道哪条文案更好？</title>
-<link>https://lik45885-kk.github.io/kangge-seo/resources/ad-creative-ab-test/</link>
-<guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/ad-creative-ab-test/</guid>
-<description>AB测试的重点不只是上传两版不同创意，而是让结果能够回答一个具体问题。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
-</item>
-<item>
-<title>广告说的卖点落地页找不到，怎么做承诺一致性检查？</title>
-<link>https://lik45885-kk.github.io/kangge-seo/resources/ad-to-page-consistency/</link>
-<guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/ad-to-page-consistency/</guid>
-<description>广告创意提到的卖点与服务承诺，必须在落地页能找到明确对应的证据和后续咨询路径。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
-</item>
-<item>
-<title>品牌词有重名怎么办？先排除歧义再优化CTR</title>
-<link>https://lik45885-kk.github.io/kangge-seo/resources/ambiguous-brand-search/</link>
-<guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/ambiguous-brand-search/</guid>
-<description>缩写、英文简称和通用单词都可能与其他品牌或主题重名。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
+<pubDate>Fri, 20 Nov 2026 10:00:00 +0800</pubDate>
 </item>
 <item>
 <title>自动定向与智能投放要不要全开？四层人工审核清单</title>
 <link>https://lik45885-kk.github.io/kangge-seo/resources/auto-targeting-risk/</link>
 <guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/auto-targeting-risk/</guid>
 <description>自动定向与智能投放是否值得全开，用四层人工审核清单判断增量流量值不值得留。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
+<pubDate>Fri, 20 Nov 2026 10:00:00 +0800</pubDate>
 </item>
 <item>
 <title>自动定向与自动创意上线后，SEM 运营还要审核什么</title>
 <link>https://lik45885-kk.github.io/kangge-seo/resources/automatic-targeting-creatives-audit/</link>
 <guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/automatic-targeting-creatives-audit/</guid>
 <description>自动定向与自动创意上线后，运营仍需审核的四类内容与复核频率。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
+<pubDate>Fri, 20 Nov 2026 10:00:00 +0800</pubDate>
 </item>
 <item>
 <title>B2B百度搜索广告创意怎么写？先回答采购者的疑问</title>
 <link>https://lik45885-kk.github.io/kangge-seo/resources/b2b-ad-copy-writing/</link>
 <guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/b2b-ad-copy-writing/</guid>
 <description>高点击率不一定来自更夸张的口号。一条有用的B2B广告创意，应该让搜索者迅速判断产品、服务范围和下一步行动。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
-</item>
-<item>
-<title>B2B落地页CTA怎么写？预约演示、获取方案还是联系销售</title>
-<link>https://lik45885-kk.github.io/kangge-seo/resources/b2b-cta-message-test/</link>
-<guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/b2b-cta-message-test/</guid>
-<description>预约演示、获取方案和联系销售适用于不同产品与用户阶段；按钮文案需要兑现承诺。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
+<pubDate>Fri, 20 Nov 2026 10:00:00 +0800</pubDate>
 </item>
 <item>
 <title>B2B获客表单怎么设计？字段数量与两步表单的选择</title>
 <link>https://lik45885-kk.github.io/kangge-seo/resources/b2b-form-fields/</link>
 <guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/b2b-form-fields/</guid>
 <description>B2B 表单字段该留几个、要不要拆两步，用线索质量与跟进成本一起比较。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
+<pubDate>Fri, 20 Nov 2026 10:00:00 +0800</pubDate>
 </item>
 <item>
 <title>B2B 百度推广落地页怎么优化转化？</title>
 <link>https://lik45885-kk.github.io/kangge-seo/resources/b2b-landing-page/</link>
 <guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/b2b-landing-page/</guid>
 <description>B2B 企业百度推广落地页优化指南：首屏表达、关键词意图、产品能力、企业背书、客户案例、CTA 和表单，以及 AB 测试如何判断。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
+<pubDate>Fri, 20 Nov 2026 10:00:00 +0800</pubDate>
 </item>
 <item>
 <title>B2B长尾关键词怎么分层？搜索量很少的词要不要留</title>
 <link>https://lik45885-kk.github.io/kangge-seo/resources/b2b-long-tail-keywords/</link>
 <guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/b2b-long-tail-keywords/</guid>
 <description>长尾词怎么分层、搜索量极少的词要不要留，用意图强度与承接成本做判断。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
+<pubDate>Fri, 20 Nov 2026 10:00:00 +0800</pubDate>
 </item>
 <item>
-<title>从百度迁移关键词到Bing，哪些设置必须重新检查？</title>
-<link>https://lik45885-kk.github.io/kangge-seo/resources/bing-import-campaign-checklist/</link>
-<guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/bing-import-campaign-checklist/</guid>
-<description>复制关键词清单只是起点，不代表账户能以相同方式获得流量。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
+<title>Bing做B2B获客怎么投放？</title>
+<link>https://lik45885-kk.github.io/kangge-seo/resources/bing-b2b-sem/</link>
+<guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/bing-b2b-sem/</guid>
+<description>Bing与百度在B2B获客上的分工、从百度迁移关键词到Bing的检查项，以及Bing站长工具提交Sitemap后的核对方法。</description>
+<pubDate>Fri, 20 Nov 2026 10:00:00 +0800</pubDate>
 </item>
 <item>
-<title>Bing和百度做国内B2B获客，应该怎么分工？</title>
-<link>https://lik45885-kk.github.io/kangge-seo/resources/bing-vs-baidu-b2b/</link>
-<guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/bing-vs-baidu-b2b/</guid>
-<description>两个搜索渠道的用户环境与广告竞争条件不同，不能把百度预算模型直接复制到Bing。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
-</item>
-<item>
-<title>Bing站长工具提交Sitemap后，应该检查哪些地方？</title>
-<link>https://lik45885-kk.github.io/kangge-seo/resources/bing-webmaster-sitemap-check/</link>
-<guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/bing-webmaster-sitemap-check/</guid>
-<description>提交Sitemap只是向Bing提供URL清单，还需检查线上文件、canonical、抓取情况与索引状态。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
-</item>
-<item>
-<title>品牌词点击突然下降，先查展现还是排名？</title>
-<link>https://lik45885-kk.github.io/kangge-seo/resources/brand-traffic-drop-diagnosis/</link>
-<guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/brand-traffic-drop-diagnosis/</guid>
-<description>品牌词点击下降不等于账户排名掉了。先把展现、点击率、点击、搜索词和投放覆盖拆开，才能避免错把需求变化当成竞价问题。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
-</item>
-<item>
-<title>品牌词和通用业务词，为什么不能只看平均成本？</title>
-<link>https://lik45885-kk.github.io/kangge-seo/resources/brand-vs-category-keywords/</link>
-<guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/brand-vs-category-keywords/</guid>
-<description>品牌词和通用业务词，为什么不能只看平均成本。品牌词常常看起来便宜，却不一定代表整体获客能力更好。把两种意图混成一张表，容易把预算判断带偏。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
+<title>百度推广品牌词与竞品词怎么投？</title>
+<link>https://lik45885-kk.github.io/kangge-seo/resources/brand-competitor-keywords/</link>
+<guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/brand-competitor-keywords/</guid>
+<description>品牌词与通用业务词的区别、品牌词重名歧义、竞品词与替代需求的判断，以及品牌词点击下降的排查顺序。</description>
+<pubDate>Fri, 20 Nov 2026 10:00:00 +0800</pubDate>
 </item>
 <item>
 <title>百度推广预算中午花完：小时报告定位与高意图词保量</title>
 <link>https://lik45885-kk.github.io/kangge-seo/resources/budget-exhausts-noon/</link>
 <guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/budget-exhausts-noon/</guid>
 <description>预算中午花完时，用小时报告定位消耗来源，再按意图优先级决定先保哪些词。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
-</item>
-<item>
-<title>品牌、业务、认知计划之间怎么分配预算？</title>
-<link>https://lik45885-kk.github.io/kangge-seo/resources/campaign-budget-allocation/</link>
-<guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/campaign-budget-allocation/</guid>
-<description>品牌、业务、认知计划之间怎么分配预算。预算不是按计划数量平均分，而是按业务优先级、意图质量和数据证据配置。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
-</item>
-<item>
-<title>网站出现相似文章，Canonical该怎么用？</title>
-<link>https://lik45885-kk.github.io/kangge-seo/resources/canonical-duplicate-pages/</link>
-<guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/canonical-duplicate-pages/</guid>
-<description>Canonical是规范URL提示而非内容合并工具，需要区分真实重复URL与主题相近的独立文章。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
+<pubDate>Fri, 20 Nov 2026 10:00:00 +0800</pubDate>
 </item>
 <item>
 <title>企业如何选择百度推广代运营？先问清这六件事</title>
 <link>https://lik45885-kk.github.io/kangge-seo/resources/choosing-sem-agency/</link>
 <guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/choosing-sem-agency/</guid>
 <description>企业选择百度推广代运营时应该问哪些问题？从账户权限、目标定义、搜索词透明度、线索质量、页面责任和协作方式六方面评估。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
-</item>
-<item>
-<title>百度推广竞品词值得投吗？先算清意图和风险</title>
-<link>https://lik45885-kk.github.io/kangge-seo/resources/competitor-keyword-policy/</link>
-<guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/competitor-keyword-policy/</guid>
-<description>用户搜索竞品名称时，有时想直接进入对方官网，有时在比较替代方案。两种需求不能用相同广告表达承接。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
-</item>
-<item>
-<title>B2B 竞品关键词要不要投？先判断替代需求</title>
-<link>https://lik45885-kk.github.io/kangge-seo/resources/competitor-query-ethics/</link>
-<guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/competitor-query-ethics/</guid>
-<description>B2B 竞品关键词要不要投先判断替代需求。竞品词不是简单的高意图流量，也涉及品牌表达、相关性和预算风险。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
+<pubDate>Fri, 20 Nov 2026 10:00:00 +0800</pubDate>
 </item>
 <item>
 <title>从 CPC 转 oCPC：时机判断与转化信号可信度检查</title>
 <link>https://lik45885-kk.github.io/kangge-seo/resources/cpc-ocpc-transition/</link>
 <guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/cpc-ocpc-transition/</guid>
 <description>从 CPC 转 oCPC 的时机判断，以及切换前如何确认转化信号足够可信。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
-</item>
-<item>
-<title>B2B落地页每一屏都要CTA吗？判断按钮位置的三个依据</title>
-<link>https://lik45885-kk.github.io/kangge-seo/resources/cta-placement-b2b/</link>
-<guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/cta-placement-b2b/</guid>
-<description>按钮多不等于线索多。CTA位置取决于用户理解业务所需的信息量、页面长度以及主任务是否明确。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
+<pubDate>Fri, 20 Nov 2026 10:00:00 +0800</pubDate>
 </item>
 <item>
 <title>CTR上涨或连续零表单：转化异常怎么定位是流量还是页面</title>
 <link>https://lik45885-kk.github.io/kangge-seo/resources/ctr-up-no-leads/</link>
 <guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/ctr-up-no-leads/</guid>
 <description>CTR 上涨但表单不增，或连续两天零表单，用流量与页面两条线索定位原因。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
+<pubDate>Fri, 20 Nov 2026 10:00:00 +0800</pubDate>
 </item>
 <item>
 <title>客户Logo、评价与资质放在哪？信任元素的位置判断</title>
 <link>https://lik45885-kk.github.io/kangge-seo/resources/customer-logo-trust/</link>
 <guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/customer-logo-trust/</guid>
 <description>客户 Logo、评价与资质放在页面的什么位置，才既建立信任又不打断咨询。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
-</item>
-<item>
-<title>PC和移动端线索质量差异大，先查哪些数据？</title>
-<link>https://lik45885-kk.github.io/kangge-seo/resources/desktop-mobile-split/</link>
-<guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/desktop-mobile-split/</guid>
-<description>按设备拆分搜索词、表单和有效线索，判断差异来自流量意图还是页面体验。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
-</item>
-<item>
-<title>多个关键词抢同一类搜索词，账户该怎么整理？</title>
-<link>https://lik45885-kk.github.io/kangge-seo/resources/duplicate-search-queries-account/</link>
-<guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/duplicate-search-queries-account/</guid>
-<description>关键词表里的词不同，触发的真实用户查询却可能高度重合。重复覆盖会降低数据解释效率，但不代表所有相近词都要删除。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
-</item>
-<item>
-<title>半导体选型咨询表单应该问什么？减少无效资料索取</title>
-<link>https://lik45885-kk.github.io/kangge-seo/resources/engineer-selection-form/</link>
-<guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/engineer-selection-form/</guid>
-<description>半导体选型表单应让工程师描述应用场景、参数和问题，避免要求首次访客立即提供全部规格。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
+<pubDate>Fri, 20 Nov 2026 10:00:00 +0800</pubDate>
 </item>
 <item>
 <title>落地页表单提交失败怎么排查？一套端到端测试流程</title>
 <link>https://lik45885-kk.github.io/kangge-seo/resources/form-submission-debug/</link>
 <guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/form-submission-debug/</guid>
 <description>无表单不一定是流量质量问题，先用真实PC和手机端测试提交并核对销售系统是否收到。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
+<pubDate>Fri, 20 Nov 2026 10:00:00 +0800</pubDate>
 </item>
 <item>
-<title>地域排除设置很复杂，如何避免误投？</title>
-<link>https://lik45885-kk.github.io/kangge-seo/resources/geo-exclusion-audit/</link>
-<guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/geo-exclusion-audit/</guid>
-<description>地域排除设置很复杂，如何避免误投。地域设置既影响花费，也影响销售能否承接咨询，必须有可复核的依据。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
+<title>百度推广地域与设备投放怎么设置？</title>
+<link>https://lik45885-kk.github.io/kangge-seo/resources/geo-device-sem/</link>
+<guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/geo-device-sem/</guid>
+<description>百度推广地域设置、PC与移动端拆分、设备出价、地域排除与非服务地区线索排查，按服务半径与设备差异组织计划。</description>
+<pubDate>Fri, 20 Nov 2026 10:00:00 +0800</pubDate>
 </item>
 <item>
 <title>百度推广CPC过高怎么排查？从设备结构到竞争与出价</title>
 <link>https://lik45885-kk.github.io/kangge-seo/resources/high-cpc/</link>
 <guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/high-cpc/</guid>
 <description>CPC 过高或突然上涨，按设备结构、竞争格局与出价动作三层顺序排查。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
+<pubDate>Fri, 20 Nov 2026 10:00:00 +0800</pubDate>
 </item>
 <item>
 <title>抓取不等于收录：新站索引卡住的七个断点</title>
 <link>https://lik45885-kk.github.io/kangge-seo/resources/indexing-blockers-crawl-vs-index/</link>
 <guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/indexing-blockers-crawl-vs-index/</guid>
 <description>抓取成功不代表能被搜到。从提交到进入索引共有七个断点，每一步都可能让前面的努力作废，用后台真实数据定位卡住的那一环。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
-</item>
-<item>
-<title>工业品SEM怎么拓展痛点关键词？从故障表现回到产品能力</title>
-<link>https://lik45885-kk.github.io/kangge-seo/resources/industrial-problem-keywords/</link>
-<guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/industrial-problem-keywords/</guid>
-<description>工业品客户不一定先搜索型号，更可能搜索温升、功耗、误差和可靠性问题。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
-</item>
-<item>
-<title>B2B认知词要不要投？看它能否进入购买决策</title>
-<link>https://lik45885-kk.github.io/kangge-seo/resources/informational-keywords-b2b/</link>
-<guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/informational-keywords-b2b/</guid>
-<description>“是什么”“有哪些”“排名”这些词不能简单归为垃圾流量。是否值得投，取决于业务销售周期、页面内容和预算容忍度。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
-</item>
-<item>
-<title>100篇SEM文章怎么做内链？用主题关系而不是随机推荐</title>
-<link>https://lik45885-kk.github.io/kangge-seo/resources/internal-links-sem-seo/</link>
-<guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/internal-links-sem-seo/</guid>
-<description>100篇SEM文章需要以主题与用户下一步问题建设内链，避免随机推荐与孤立页面。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
-</item>
-<item>
-<title>关键词拓展不够精准？试试从销售提问反推词库</title>
-<link>https://lik45885-kk.github.io/kangge-seo/resources/keyword-expansion-from-sales-questions/</link>
-<guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/keyword-expansion-from-sales-questions/</guid>
-<description>客户在采购沟通中说的往往不是广告后台里的标准产品名。把这些问题整理成搜索表达，可以发现词库漏掉的场景词。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
-</item>
-<item>
-<title>关键词越加越多，什么时候应该停下来？</title>
-<link>https://lik45885-kk.github.io/kangge-seo/resources/keyword-expansion-stop-rule/</link>
-<guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/keyword-expansion-stop-rule/</guid>
-<description>关键词越加越多，什么时候应该停下来。扩词有边际收益。每新增一个方向，都要考虑能否提供真实产品承接，以及是否挤占高意图流量预算。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
+<pubDate>Fri, 20 Nov 2026 10:00:00 +0800</pubDate>
 </item>
 <item>
 <title>B2B落地页首屏信息层级：PC 与移动端怎么排</title>
 <link>https://lik45885-kk.github.io/kangge-seo/resources/landing-hero-hierarchy/</link>
 <guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/landing-hero-hierarchy/</guid>
 <description>B2B 落地页首屏的信息层级：标题、副标题与 CTA 各负责什么，PC 与移动端分别怎么排。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
-</item>
-<item>
-<title>落地页打开慢怎么测？从图片、脚本和表单加载查起</title>
-<link>https://lik45885-kk.github.io/kangge-seo/resources/landing-page-speed-audit/</link>
-<guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/landing-page-speed-audit/</guid>
-<description>落地页打开慢可能使广告点击和有效访问脱节，需要检查首屏图片、脚本与表单可用时间。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
+<pubDate>Fri, 20 Nov 2026 10:00:00 +0800</pubDate>
 </item>
 <item>
 <title>百度推广线索多但质量差？从搜索词到销售反馈排查</title>
 <link>https://lik45885-kk.github.io/kangge-seo/resources/lead-quality/</link>
 <guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/lead-quality/</guid>
 <description>百度推广表单量上涨但企业线索质量差怎么办？从搜索意图、计划、落地页、表单字段、转化追踪和销售回访建立线索质量闭环。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
-</item>
-<item>
-<title>搜索量很低的B2B关键词从哪里找？四类真实线索</title>
-<link>https://lik45885-kk.github.io/kangge-seo/resources/low-search-volume-discovery/</link>
-<guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/low-search-volume-discovery/</guid>
-<description>小众领域的有效需求可能分散在几十种低频表述里。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
-</item>
-<item>
-<title>移动端点击便宜但线索质量差，设备出价该怎么调整？</title>
-<link>https://lik45885-kk.github.io/kangge-seo/resources/mobile-bid-adjustment/</link>
-<guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/mobile-bid-adjustment/</guid>
-<description>较低CPC和更高点击数可能掩盖不同设备的采购行为差异。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
+<pubDate>Fri, 20 Nov 2026 10:00:00 +0800</pubDate>
 </item>
 <item>
 <title>多产品线与多解决方案怎么分词、做落地页导航</title>
 <link>https://lik45885-kk.github.io/kangge-seo/resources/multi-product-landing-routing/</link>
 <guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/multi-product-landing-routing/</guid>
 <description>多产品线与多解决方案的账户分词、落地页结构与导航层级该怎么设计。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
+<pubDate>Fri, 20 Nov 2026 10:00:00 +0800</pubDate>
 </item>
 <item>
 <title>否词后点击和展现同时下降，怎么判断是优化还是误伤</title>
 <link>https://lik45885-kk.github.io/kangge-seo/resources/negative-keywords-lower-clicks/</link>
 <guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/negative-keywords-lower-clicks/</guid>
 <description>否词后点击与展现同时下降，用展现份额、无效词占比与时段数据判断是优化到位还是误伤。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
+<pubDate>Fri, 20 Nov 2026 10:00:00 +0800</pubDate>
 </item>
 <item>
 <title>百度推广否定关键词设置方法：清单、例外与误伤边界</title>
 <link>https://lik45885-kk.github.io/kangge-seo/resources/negative-keywords/</link>
 <guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/negative-keywords/</guid>
 <description>否定关键词怎么设、清单如何列、行业缩写要不要设例外，以及误判后如何回溯。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
-</item>
-<item>
-<title>新旧计划同时投放，如何排查关键词覆盖重叠？</title>
-<link>https://lik45885-kk.github.io/kangge-seo/resources/new-plan-overlap-audit/</link>
-<guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/new-plan-overlap-audit/</guid>
-<description>新计划上线后流量不增长，可能只是把旧计划能获得的点击重新分配了。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
-</item>
-<item>
-<title>SEM线索来自非服务地区，如何定位地域问题？</title>
-<link>https://lik45885-kk.github.io/kangge-seo/resources/nonlocal-lead-diagnosis/</link>
-<guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/nonlocal-lead-diagnosis/</guid>
-<description>地域设置准确也不意味着用户的公司或采购需求一定来自目标地区。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
+<pubDate>Fri, 20 Nov 2026 10:00:00 +0800</pubDate>
 </item>
 <item>
 <title>日预算应该怎么监控？做一张上午到晚上的消耗节奏表</title>
 <link>https://lik45885-kk.github.io/kangge-seo/resources/paid-search-budget-pacing/</link>
 <guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/paid-search-budget-pacing/</guid>
 <description>投放节奏表的价值是识别预算何时受限，而不是追求每小时平均花钱。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
-</item>
-<item>
-<title>PC与移动端百度推广拆计划后，预算和页面怎么分工？</title>
-<link>https://lik45885-kk.github.io/kangge-seo/resources/pc-mobile-sem-split/</link>
-<guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/pc-mobile-sem-split/</guid>
-<description>明确设备计划的预算与着陆页分工，评估独立管理条件和优化边界。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
-</item>
-<item>
-<title>搜索“厂家”和“原理”的用户，哪些更可能成为B2B线索？</title>
-<link>https://lik45885-kk.github.io/kangge-seo/resources/procurement-vs-research-intent/</link>
-<guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/procurement-vs-research-intent/</guid>
-<description>同样一个产品主题，搜索动词往往暴露当前决策任务。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
-</item>
-<item>
-<title>B2B产品型号词怎么投？区分精准采购与资料查找</title>
-<link>https://lik45885-kk.github.io/kangge-seo/resources/product-model-search-strategy/</link>
-<guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/product-model-search-strategy/</guid>
-<description>B2B产品型号词投放不应只看关键词精准度，还需区分技术资料查询、替代型号筛选和真实采购报价需求，并结合线索质量评估。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
+<pubDate>Fri, 20 Nov 2026 10:00:00 +0800</pubDate>
 </item>
 <item>
 <title>搜索意图地图怎么画？从关键词清单到落地页路由表</title>
 <link>https://lik45885-kk.github.io/kangge-seo/resources/query-intent-map/</link>
 <guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/query-intent-map/</guid>
 <description>把关键词清单整理成意图地图，再落到一张落地页路由表，解决覆盖不全与需求错配。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
+<pubDate>Fri, 20 Nov 2026 10:00:00 +0800</pubDate>
 </item>
 <item>
 <title>搜索词报告多久看一次？附带意外查询的排查顺序</title>
 <link>https://lik45885-kk.github.io/kangge-seo/resources/query-report-frequency/</link>
 <guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/query-report-frequency/</guid>
 <description>搜索词报告的检查节奏怎么定，以及投了精确词仍出现意外查询时的排查顺序。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
-</item>
-<item>
-<title>问句型关键词怎么做内容和广告分流？</title>
-<link>https://lik45885-kk.github.io/kangge-seo/resources/question-keyword-clusters/</link>
-<guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/question-keyword-clusters/</guid>
-<description>“怎么选”“多少钱”“有哪些区别”描述的是三种不同的动作。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
-</item>
-<item>
-<title>B2B 搜索推广投全国还是投重点省份？</title>
-<link>https://lik45885-kk.github.io/kangge-seo/resources/regional-intent-b2b/</link>
-<guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/regional-intent-b2b/</guid>
-<description>B2B 搜索推广投全国还是投重点省份。地域设置不是“越广机会越多”。对交付能力受地区影响的业务，流量质量需要和服务范围一起看。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
+<pubDate>Fri, 20 Nov 2026 10:00:00 +0800</pubDate>
 </item>
 <item>
 <title>百度推广搜索词报告怎么分析？从逐条读到意图标签表</title>
 <link>https://lik45885-kk.github.io/kangge-seo/resources/search-term-analysis/</link>
 <guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/search-term-analysis/</guid>
 <description>从逐条读搜索词，到归档成意图标签表：字段设计、判断规则与每周复盘节奏。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
-</item>
-<item>
-<title>B2B搜索词在节假日前后变化，怎么判断是真需求下降？</title>
-<link>https://lik45885-kk.github.io/kangge-seo/resources/seasonal-query-pattern/</link>
-<guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/seasonal-query-pattern/</guid>
-<description>节假日会同时改变可投放时长、搜索需求和销售处理速度。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
-</item>
-<item>
-<title>百度推广分时段出价怎么分析？别只按小时看CPA</title>
-<link>https://lik45885-kk.github.io/kangge-seo/resources/sem-daypart-analysis/</link>
-<guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/sem-daypart-analysis/</guid>
-<description>时段表现可能被样本量、销售在线时间和转化延迟扭曲。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
+<pubDate>Fri, 20 Nov 2026 10:00:00 +0800</pubDate>
 </item>
 <item>
 <title>百度推广新账户上线第一周，先检查这八个地方</title>
 <link>https://lik45885-kk.github.io/kangge-seo/resources/sem-new-account-first-week/</link>
 <guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/sem-new-account-first-week/</guid>
 <description>新账户上线后最容易犯的错，是立刻盯转化成本，却忘了广告是否正常展示、页面能否提交、实际搜索词是否符合业务。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
+<pubDate>Fri, 20 Nov 2026 10:00:00 +0800</pubDate>
 </item>
 <item>
 <title>SEM 搜索词报告能不能反过来指导 SEO 文章选题？</title>
 <link>https://lik45885-kk.github.io/kangge-seo/resources/sem-seo-search-intent-collaboration/</link>
 <guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/sem-seo-search-intent-collaboration/</guid>
 <description>如何利用百度推广搜索词报告指导 SEO 内容选题？从用户意图、知识词与采购词分流，到独特价值和发布后复盘，建立 SEM 与 SEO 的反馈闭环。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
-</item>
-<item>
-<title>SEM周报数据异常，先写原因还是先做归因排查？</title>
-<link>https://lik45885-kk.github.io/kangge-seo/resources/sem-weekly-anomaly-triage/</link>
-<guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/sem-weekly-anomaly-triage/</guid>
-<description>SEM周报遇到数据异常应先核对统计口径和变量，再把事实、假设及优化动作分开写。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
+<pubDate>Fri, 20 Nov 2026 10:00:00 +0800</pubDate>
 </item>
 <item>
 <title>百度推广周报怎么写？从指标变化到优化动作</title>
 <link>https://lik45885-kk.github.io/kangge-seo/resources/sem-weekly-report/</link>
 <guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/sem-weekly-report/</guid>
 <description>百度推广 SEM 周报怎么写？提供展现、点击、CTR、CPC、消费、表单、有效线索及成本的对比框架，并把变化转化为优化建议。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
-</item>
-<item>
-<title>B2B SEM年底汇报怎么写？从花费复盘到下一年增长策略</title>
-<link>https://lik45885-kk.github.io/kangge-seo/resources/sem-year-end-report-b2b/</link>
-<guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/sem-year-end-report-b2b/</guid>
-<description>B2B SEM年终汇报应联通投入、有效线索、策略变化和明年可验证的增长计划。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
-</item>
-<item>
-<title>SEO文章越多越好吗？100篇内容如何做质量审核</title>
-<link>https://lik45885-kk.github.io/kangge-seo/resources/seo-content-quality-review/</link>
-<guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/seo-content-quality-review/</guid>
-<description>SEO文章质量不应靠数量判断，应检查独特判断、证据、问题解决深度和重复主题。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
-</item>
-<item>
-<title>SEO页面没排名，是没收录还是相关性不够？</title>
-<link>https://lik45885-kk.github.io/kangge-seo/resources/seo-indexing-vs-ranking/</link>
-<guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/seo-indexing-vs-ranking/</guid>
-<description>页面未收录与已经收录但无排名属于不同问题，需分别核对抓取状态、规范URL和内容价值。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
-</item>
-<item>
-<title>SEO标题和描述怎么写？让用户看懂文章解决什么问题</title>
-<link>https://lik45885-kk.github.io/kangge-seo/resources/seo-title-meta-guide/</link>
-<guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/seo-title-meta-guide/</guid>
-<description>SEO标题、H1与描述需要准确反映页面解决的问题，避免批量堆砌同义关键词。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
-</item>
-<item>
-<title>解决方案词和产品词应该落在同一页吗？</title>
-<link>https://lik45885-kk.github.io/kangge-seo/resources/solution-keywords-mapping/</link>
-<guid isPermaLink="true">https://lik45885-kk.github.io/kangge-seo/resources/solution-keywords-mapping/</guid>
-<description>搜索业务问题的人和搜索标准产品名的人，常常需要不同证据。</description>
-<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
+<pubDate>Fri, 20 Nov 2026 10:00:00 +0800</pubDate>
 </item>
 </channel>
 </rss>
